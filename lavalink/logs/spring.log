@@ -472,3 +472,247 @@ Identify and stop the process that's listening on port 2333 or configure this ap
 2020-02-20 11:50:54.944  INFO 878 --- [XNIO-1 task-5] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:47058
 2020-02-20 11:50:54.959  INFO 878 --- [XNIO-1 task-5] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
 2020-02-20 11:50:54.968  INFO 878 --- [XNIO-1 task-5] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:47058
+2020-02-20 12:23:05.721  INFO 878 --- [XNIO-1 task-6] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:47070
+2020-02-20 12:23:05.726  INFO 878 --- [XNIO-1 task-6] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2020-02-20 12:23:05.736  INFO 878 --- [XNIO-1 task-6] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:47070
+2020-02-20 12:23:15.549  INFO 878 --- [XNIO-1 task-7] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-02-20 12:23:15.751  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"sessionId":"610d7059bb0bbc75cd6b7d8f71497375","op":"voiceUpdate","guildId":"653060383602376764","event":{"token":"9f48a5d14e4e51f1","guild_id":"653060383602376764","endpoint":"eu-central681.discord.media:80"}}
+2020-02-20 12:23:16.158  INFO 878 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: kidaki
+2020-02-20 12:23:17.597  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"653060383602376764","track":"QAAAgQIAHEtpZGFraSAtIFVuZSBiYWxsZSBxdWkgdHVlID8ACzFtaW51dGUycmFwAAAAAAACTdgACzF1WkhqNEpDaWxZAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9MXVaSGo0SkNpbFkAB3lvdXR1YmUAAAAAAAAAAA=="}
+2020-02-20 12:24:00.247  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"653060383602376764"}
+2020-02-20 12:24:11.969  INFO 878 --- [XNIO-1 task-9] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:47100
+2020-02-20 12:24:11.978  INFO 878 --- [XNIO-1 task-9] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2020-02-20 12:24:11.986  INFO 878 --- [XNIO-1 task-9] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:47100
+2020-02-20 12:24:14.027  INFO 878 --- [XNIO-1 task-10] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-02-20 12:24:14.230  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"sessionId":"d89286478e6af8aa80690d6efa014cf4","op":"voiceUpdate","guildId":"653060383602376764","event":{"token":"d11811ca30d523be","guild_id":"653060383602376764","endpoint":"eu-central681.discord.media:80"}}
+2020-02-20 12:24:14.561  INFO 878 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: kidaki
+2020-02-20 12:24:16.641  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"653060383602376764","track":"QAAAgQIAHEtpZGFraSAtIFVuZSBiYWxsZSBxdWkgdHVlID8ACzFtaW51dGUycmFwAAAAAAACTdgACzF1WkhqNEpDaWxZAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9MXVaSGo0SkNpbFkAB3lvdXR1YmUAAAAAAAAAAA=="}
+2020-02-20 12:24:20.367  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"653060383602376764"}
+2020-02-20 12:24:29.094  INFO 878 --- [XNIO-1 task-12] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-02-20 12:24:29.798  INFO 878 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: kidaki
+2020-02-20 12:25:15.716  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"653060383602376764"}
+2020-02-20 12:25:19.120  INFO 878 --- [XNIO-1 task-14] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-02-20 12:25:19.315  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"sessionId":"d89286478e6af8aa80690d6efa014cf4","op":"voiceUpdate","guildId":"653060383602376764","event":{"token":"34a4c02d0c638ca7","guild_id":"653060383602376764","endpoint":"eu-central681.discord.media:80"}}
+2020-02-20 12:25:19.661  INFO 878 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: kidaki 1
+2020-02-20 12:25:25.607  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"653060383602376764","track":"QAAAqgIARUV2YSBmdCBraWRha2kgKCByZW1peCBwaG90byBsZXMgNCBzb24gZGUgZXZhIDEgc29uIGRlIGtpZGFraSBpbnNvbW5pZQALRXZhIFNvY2lhdXgAAAAAAAFT2AALc000RE1HM081OG8AAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1zTTRETUczTzU4bwAHeW91dHViZQAAAAAAAAAA"}
+2020-02-20 12:25:30.171  INFO 878 --- [XNIO-1 task-16] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-02-20 12:25:30.666  INFO 878 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: kidaki
+2020-02-20 12:25:35.437  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"653060383602376764"}
+2020-02-20 12:25:35.442  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"653060383602376764","track":"QAAAgAIAHktJREFLS0kgLSBTVEFOSkUgKE11c2ljIHZpZGVvKQAIS2lkIEFra2kAAAAAAALG8AALa0gzXzlVaWhiaFkAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1rSDNfOVVpaGJoWQAHeW91dHViZQAAAAAAAAAA"}
+2020-02-20 12:25:55.850  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"653060383602376764"}
+2020-02-20 12:26:01.302  INFO 878 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-02-20 12:26:01.858  INFO 878 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: test
+2020-02-20 12:30:19.702  INFO 878 --- [XNIO-1 task-4] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:47170
+2020-02-20 12:30:19.718  INFO 878 --- [XNIO-1 task-4] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2020-02-20 12:30:19.722  INFO 878 --- [XNIO-1 task-4] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:47170
+2020-02-20 12:30:25.849  INFO 878 --- [XNIO-1 task-5] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-02-20 12:30:26.055  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"sessionId":"500b0e309987f4a8d9d7dfa8a0cf0d51","op":"voiceUpdate","guildId":"653060383602376764","event":{"token":"34a4c02d0c638ca7","guild_id":"653060383602376764","endpoint":"eu-central681.discord.media:80"}}
+2020-02-20 12:30:26.698  INFO 878 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: kidaki
+2020-02-20 12:30:27.967  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"653060383602376764","track":"QAAAgQIAHEtpZGFraSAtIFVuZSBiYWxsZSBxdWkgdHVlID8ACzFtaW51dGUycmFwAAAAAAACTdgACzF1WkhqNEpDaWxZAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9MXVaSGo0SkNpbFkAB3lvdXR1YmUAAAAAAAAAAA=="}
+2020-02-20 12:30:34.750  INFO 878 --- [XNIO-1 task-7] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-02-20 12:30:35.140  INFO 878 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: ifghj
+2020-02-20 12:30:39.084  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"653060383602376764"}
+2020-02-20 12:30:39.094  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"653060383602376764","track":"QAAAewIAF0h1ZmZpbmd0b24gcXVlIHlmaGpydm5nAApBcmFjaSBMaW1hAAAAAAAB9+gAC2F5M1lWNS1TU3Z3AAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9YXkzWVY1LVNTdncAB3lvdXR1YmUAAAAAAAAAAA=="}
+2020-02-20 12:30:39.988  INFO 878 --- [lava-daemon-pool-playback-25-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library libmpg123-0: loading with filter com.sedmelluq.discord.lavaplayer.natives.ConnectorNativeLibLoader$$Lambda$631/0x000000084070d840@5f817220
+2020-02-20 12:30:39.990  INFO 878 --- [lava-daemon-pool-playback-25-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library connector: loading with filter null
+2020-02-20 12:30:40.015  INFO 878 --- [lava-daemon-pool-playback-25-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library connector: successfully loaded.
+2020-02-20 12:30:42.409  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"653060383602376764"}
+2020-02-20 12:30:46.889  INFO 878 --- [XNIO-1 task-9] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-02-20 12:30:47.361  INFO 878 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: kidaki
+2020-02-20 12:31:57.863  INFO 878 --- [XNIO-1 task-11] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:47226
+2020-02-20 12:31:57.868  INFO 878 --- [XNIO-1 task-11] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2020-02-20 12:31:57.874  INFO 878 --- [XNIO-1 task-11] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:47226
+2020-02-20 12:32:00.859  INFO 878 --- [XNIO-1 task-12] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-02-20 12:32:01.064  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"sessionId":"6237afef3cc6d7fe69e18ec2e531fa63","op":"voiceUpdate","guildId":"653060383602376764","event":{"token":"34a4c02d0c638ca7","guild_id":"653060383602376764","endpoint":"eu-central681.discord.media:80"}}
+2020-02-20 12:32:01.282  INFO 878 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: kidaki 1
+2020-02-20 12:32:03.836  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"653060383602376764","track":"QAAAqgIARUV2YSBmdCBraWRha2kgKCByZW1peCBwaG90byBsZXMgNCBzb24gZGUgZXZhIDEgc29uIGRlIGtpZGFraSBpbnNvbW5pZQALRXZhIFNvY2lhdXgAAAAAAAFT2AALc000RE1HM081OG8AAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1zTTRETUczTzU4bwAHeW91dHViZQAAAAAAAAAA"}
+2020-02-20 12:32:09.039  INFO 878 --- [XNIO-1 task-14] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-02-20 12:32:09.509  INFO 878 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: rk bae
+2020-02-20 12:32:15.983  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"653060383602376764"}
+2020-02-20 12:32:15.987  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"653060383602376764","track":"QAAAawIACFJLIC0gQmFlAAlTb24gQWxidW0AAAAAAAJxAAALcXBjZHRPZ01SRVEAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1xcGNkdE9nTVJFUQAHeW91dHViZQAAAAAAAAAA"}
+2020-02-20 12:32:25.234  INFO 878 --- [XNIO-1 task-16] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-02-20 12:32:25.597  INFO 878 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: kidaki 1
+2020-02-20 12:32:31.476  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"653060383602376764"}
+2020-02-20 12:32:31.480  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"653060383602376764","track":"QAAAqgIARUV2YSBmdCBraWRha2kgKCByZW1peCBwaG90byBsZXMgNCBzb24gZGUgZXZhIDEgc29uIGRlIGtpZGFraSBpbnNvbW5pZQALRXZhIFNvY2lhdXgAAAAAAAFT2AALc000RE1HM081OG8AAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1zTTRETUczTzU4bwAHeW91dHViZQAAAAAAAAAA"}
+2020-02-20 12:32:41.258  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"653060383602376764"}
+2020-02-20 12:33:33.378  INFO 878 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-02-20 12:33:33.853  INFO 878 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: kidaki
+2020-02-20 12:35:47.425  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"653060383602376764"}
+2020-02-20 12:35:50.525  INFO 878 --- [XNIO-1 task-4] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-02-20 12:35:50.736  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"sessionId":"6237afef3cc6d7fe69e18ec2e531fa63","op":"voiceUpdate","guildId":"653060383602376764","event":{"token":"b902a5b075fdde77","guild_id":"653060383602376764","endpoint":"eu-central681.discord.media:80"}}
+2020-02-20 12:35:50.950  INFO 878 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: kidaki 1
+2020-02-20 12:35:53.520  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"653060383602376764","track":"QAAAqgIARUV2YSBmdCBraWRha2kgKCByZW1peCBwaG90byBsZXMgNCBzb24gZGUgZXZhIDEgc29uIGRlIGtpZGFraSBpbnNvbW5pZQALRXZhIFNvY2lhdXgAAAAAAAFT2AALc000RE1HM081OG8AAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1zTTRETUczTzU4bwAHeW91dHViZQAAAAAAAAAA"}
+2020-02-20 12:36:23.873  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"pause","guildId":"653060383602376764","pause":true}
+2020-02-20 12:36:25.718  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"pause","guildId":"653060383602376764","pause":false}
+2020-02-20 12:37:37.526  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"653060383602376764"}
+2020-02-20 12:37:43.628  INFO 878 --- [XNIO-1 task-6] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-02-20 12:37:44.110  INFO 878 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: kidaki
+2020-02-20 12:37:45.696  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"653060383602376764","track":"QAAAgQIAHEtpZGFraSAtIFVuZSBiYWxsZSBxdWkgdHVlID8ACzFtaW51dGUycmFwAAAAAAACTdgACzF1WkhqNEpDaWxZAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9MXVaSGo0SkNpbFkAB3lvdXR1YmUAAAAAAAAAAA=="}
+2020-02-20 12:38:01.445  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"653060383602376764"}
+2020-02-20 12:38:07.241  INFO 878 --- [XNIO-1 task-8] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-02-20 12:38:07.793  INFO 878 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: kidaki
+2020-02-20 12:38:19.780  INFO 878 --- [XNIO-1 task-10] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-02-20 12:38:20.273  INFO 878 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: kidaki
+2020-02-20 12:38:24.874  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"653060383602376764"}
+2020-02-20 12:39:32.531  INFO 878 --- [XNIO-1 task-12] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:47356
+2020-02-20 12:39:32.542  INFO 878 --- [XNIO-1 task-12] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2020-02-20 12:39:32.547  INFO 878 --- [XNIO-1 task-12] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:47356
+2020-02-20 12:39:39.954  INFO 878 --- [parallel-1] s.n.m.impl.connections.AudioWebSocket    : Websocket to wss://eu-central681.discord.media/?v=4 closed with code 4014 and reason Disconnected.
+2020-02-20 12:39:39.955  INFO 878 --- [parallel-1] s.n.m.impl.connections.AudioWebSocket    : Closing
+2020-02-20 12:39:42.682  INFO 878 --- [XNIO-1 task-13] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-02-20 12:39:42.898  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"sessionId":"922f956efd51a9515782eeba25546aaa","op":"voiceUpdate","guildId":"653060383602376764","event":{"token":"87b5a5ec93634779","guild_id":"653060383602376764","endpoint":"eu-central681.discord.media:80"}}
+2020-02-20 12:39:43.097  INFO 878 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: kidaki
+2020-02-20 12:39:44.429  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"653060383602376764","track":"QAAAgQIAHEtpZGFraSAtIFVuZSBiYWxsZSBxdWkgdHVlID8ACzFtaW51dGUycmFwAAAAAAACTdgACzF1WkhqNEpDaWxZAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9MXVaSGo0SkNpbFkAB3lvdXR1YmUAAAAAAAAAAA=="}
+2020-02-20 12:39:47.325  INFO 878 --- [XNIO-1 task-15] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-02-20 12:39:47.783  INFO 878 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: kidaki 2
+2020-02-20 12:40:18.380  INFO 878 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:47390
+2020-02-20 12:40:18.389  INFO 878 --- [XNIO-1 task-1] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2020-02-20 12:40:18.392  INFO 878 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:47390
+2020-02-20 12:40:20.325  INFO 878 --- [parallel-1] s.n.m.impl.connections.AudioWebSocket    : Websocket to wss://eu-central681.discord.media/?v=4 closed with code 4014 and reason Disconnected.
+2020-02-20 12:40:20.327  INFO 878 --- [parallel-1] s.n.m.impl.connections.AudioWebSocket    : Closing
+2020-02-20 12:40:23.309  INFO 878 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-02-20 12:40:23.518  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"sessionId":"cb6c10199946ecd2f5d4e2d53c09a8f9","op":"voiceUpdate","guildId":"653060383602376764","event":{"token":"60a33c5100f232ee","guild_id":"653060383602376764","endpoint":"eu-central681.discord.media:80"}}
+2020-02-20 12:40:23.774  INFO 878 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: kidaki
+2020-02-20 12:40:25.121  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"653060383602376764","track":"QAAAgQIAHEtpZGFraSAtIFVuZSBiYWxsZSBxdWkgdHVlID8ACzFtaW51dGUycmFwAAAAAAACTdgACzF1WkhqNEpDaWxZAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9MXVaSGo0SkNpbFkAB3lvdXR1YmUAAAAAAAAAAA=="}
+2020-02-20 12:40:28.584  INFO 878 --- [XNIO-1 task-4] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-02-20 12:40:29.081  INFO 878 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: kidaki 1
+2020-02-20 12:40:32.401  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"653060383602376764"}
+2020-02-20 12:40:32.404  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"653060383602376764","track":"QAAAqgIARUV2YSBmdCBraWRha2kgKCByZW1peCBwaG90byBsZXMgNCBzb24gZGUgZXZhIDEgc29uIGRlIGtpZGFraSBpbnNvbW5pZQALRXZhIFNvY2lhdXgAAAAAAAFT2AALc000RE1HM081OG8AAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1zTTRETUczTzU4bwAHeW91dHViZQAAAAAAAAAA"}
+2020-02-20 12:40:39.057  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"653060383602376764"}
+2020-02-20 12:40:45.158  INFO 878 --- [XNIO-1 task-6] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-02-20 12:40:45.492  INFO 878 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: kidaki 1
+2020-02-20 12:41:00.167  INFO 878 --- [parallel-1] s.n.m.impl.connections.AudioWebSocket    : Websocket to wss://eu-central681.discord.media/?v=4 closed with code 4014 and reason Disconnected.
+2020-02-20 12:41:00.167  INFO 878 --- [parallel-1] s.n.m.impl.connections.AudioWebSocket    : Closing
+2020-02-20 12:50:56.955  INFO 878 --- [XNIO-1 task-8] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:47450
+2020-02-20 12:50:56.960  INFO 878 --- [XNIO-1 task-8] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2020-02-20 12:50:56.966  INFO 878 --- [XNIO-1 task-8] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:47450
+2020-02-20 12:51:03.865  INFO 878 --- [XNIO-1 task-9] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-02-20 12:51:04.089  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"sessionId":"da48986c8227f31cb135ab6c414def81","op":"voiceUpdate","guildId":"653060383602376764","event":{"token":"c6314b6103959b5e","guild_id":"653060383602376764","endpoint":"eu-central681.discord.media:80"}}
+2020-02-20 12:51:04.363  INFO 878 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: kidaki
+2020-02-20 12:51:05.723  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"653060383602376764","track":"QAAAgQIAHEtpZGFraSAtIFVuZSBiYWxsZSBxdWkgdHVlID8ACzFtaW51dGUycmFwAAAAAAACTdgACzF1WkhqNEpDaWxZAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9MXVaSGo0SkNpbFkAB3lvdXR1YmUAAAAAAAAAAA=="}
+2020-02-20 12:51:09.071  INFO 878 --- [XNIO-1 task-11] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-02-20 12:51:09.592  INFO 878 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: kidaki 2
+2020-02-20 12:51:12.729  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"653060383602376764"}
+2020-02-20 12:51:12.734  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"653060383602376764","track":"QAAAtAIAUVtTT0xEXSBJbnN0cnUgUmFwIC0gS2lkYWtpIEd1aXRhcmUgVHlwZSBCZWF0IMKrIFNvbGl0YWlyZSAywrsgSW5zdHJ1IFRyaXN0ZS9Eb3VjZQAJRWwgQ2hhY29uAAAAAAAC2ngACzR4Z2p4MkZFeXFvAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9NHhnangyRkV5cW8AB3lvdXR1YmUAAAAAAAAAAA=="}
+2020-02-20 12:51:15.690  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"653060383602376764"}
+2020-02-20 12:51:23.588  INFO 878 --- [XNIO-1 task-13] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-02-20 12:51:24.334  INFO 878 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: kidaki
+2020-02-20 12:52:05.867  INFO 878 --- [XNIO-1 task-15] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:47500
+2020-02-20 12:52:05.875  INFO 878 --- [XNIO-1 task-15] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2020-02-20 12:52:05.883  INFO 878 --- [XNIO-1 task-15] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:47500
+2020-02-20 12:52:08.730  INFO 878 --- [XNIO-1 task-16] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-02-20 12:52:08.949  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"sessionId":"4f124547674002d501d245a5ddf383c9","op":"voiceUpdate","guildId":"653060383602376764","event":{"token":"c6314b6103959b5e","guild_id":"653060383602376764","endpoint":"eu-central681.discord.media:80"}}
+2020-02-20 12:52:09.318  INFO 878 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: kidaki
+2020-02-20 12:52:10.762  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"653060383602376764","track":"QAAAgQIAHEtpZGFraSAtIFVuZSBiYWxsZSBxdWkgdHVlID8ACzFtaW51dGUycmFwAAAAAAACTdgACzF1WkhqNEpDaWxZAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9MXVaSGo0SkNpbFkAB3lvdXR1YmUAAAAAAAAAAA=="}
+2020-02-20 12:52:13.004  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"653060383602376764"}
+2020-02-20 13:00:50.927  INFO 878 --- [XNIO-1 task-2] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:47524
+2020-02-20 13:00:50.945  INFO 878 --- [XNIO-1 task-2] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2020-02-20 13:00:50.954  INFO 878 --- [XNIO-1 task-2] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:47524
+2020-02-20 13:00:52.552  INFO 878 --- [parallel-1] s.n.m.impl.connections.AudioWebSocket    : Websocket to wss://eu-central681.discord.media/?v=4 closed with code 4014 and reason Disconnected.
+2020-02-20 13:00:52.553  INFO 878 --- [parallel-1] s.n.m.impl.connections.AudioWebSocket    : Closing
+2020-02-20 13:00:55.992  INFO 878 --- [XNIO-1 task-3] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-02-20 13:00:56.200  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"sessionId":"5026f10abccd272955c7906ff92a1186","op":"voiceUpdate","guildId":"653060383602376764","event":{"token":"5b4fc068b578a5da","guild_id":"653060383602376764","endpoint":"eu-central681.discord.media:80"}}
+2020-02-20 13:00:56.471  INFO 878 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: kidaki 1
+2020-02-20 13:00:58.075  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"653060383602376764","track":"QAAAqgIARUV2YSBmdCBraWRha2kgKCByZW1peCBwaG90byBsZXMgNCBzb24gZGUgZXZhIDEgc29uIGRlIGtpZGFraSBpbnNvbW5pZQALRXZhIFNvY2lhdXgAAAAAAAFT2AALc000RE1HM081OG8AAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1zTTRETUczTzU4bwAHeW91dHViZQAAAAAAAAAA"}
+2020-02-20 13:01:00.864  INFO 878 --- [XNIO-1 task-5] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-02-20 13:01:01.290  INFO 878 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: kidaki
+2020-02-20 13:01:05.888  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"653060383602376764"}
+2020-02-20 13:01:05.892  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"653060383602376764","track":"QAAAgQIAHEtpZGFraSAtIFVuZSBiYWxsZSBxdWkgdHVlID8ACzFtaW51dGUycmFwAAAAAAACTdgACzF1WkhqNEpDaWxZAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9MXVaSGo0SkNpbFkAB3lvdXR1YmUAAAAAAAAAAA=="}
+2020-02-20 13:01:08.322  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"653060383602376764"}
+2020-02-20 13:01:29.235  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"653060383602376764"}
+2020-02-20 13:01:35.214  INFO 878 --- [XNIO-1 task-7] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-02-20 13:01:35.448  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"sessionId":"5026f10abccd272955c7906ff92a1186","op":"voiceUpdate","guildId":"653060383602376764","event":{"token":"04bc4c3575f28048","guild_id":"653060383602376764","endpoint":"eu-central681.discord.media:80"}}
+2020-02-20 13:01:35.717  INFO 878 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: kidaki
+2020-02-20 13:01:36.941  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"653060383602376764","track":"QAAAgQIAHEtpZGFraSAtIFVuZSBiYWxsZSBxdWkgdHVlID8ACzFtaW51dGUycmFwAAAAAAACTdgACzF1WkhqNEpDaWxZAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9MXVaSGo0SkNpbFkAB3lvdXR1YmUAAAAAAAAAAA=="}
+2020-02-20 13:01:40.071  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"653060383602376764"}
+2020-02-20 13:03:31.672  INFO 878 --- [XNIO-1 task-9] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-02-20 13:03:32.140  INFO 878 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: kidaki
+2020-02-20 13:03:36.128  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"653060383602376764"}
+2020-02-20 13:05:49.011  INFO 878 --- [XNIO-1 task-11] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:47592
+2020-02-20 13:05:49.018  INFO 878 --- [XNIO-1 task-11] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2020-02-20 13:05:49.021  INFO 878 --- [XNIO-1 task-11] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:47592
+2020-02-20 13:05:58.298  INFO 878 --- [XNIO-1 task-12] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-02-20 13:05:58.506  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"sessionId":"714424d005a57defe5fcc0d3c3254607","op":"voiceUpdate","guildId":"653060383602376764","event":{"token":"2985bc4b9e580495","guild_id":"653060383602376764","endpoint":"eu-central681.discord.media:80"}}
+2020-02-20 13:05:58.882  INFO 878 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: kidaki
+2020-02-20 13:06:00.101  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"653060383602376764","track":"QAAAgQIAHEtpZGFraSAtIFVuZSBiYWxsZSBxdWkgdHVlID8ACzFtaW51dGUycmFwAAAAAAACTdgACzF1WkhqNEpDaWxZAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9MXVaSGo0SkNpbFkAB3lvdXR1YmUAAAAAAAAAAA=="}
+2020-02-20 13:06:03.150  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"653060383602376764"}
+2020-02-20 13:12:20.846  INFO 878 --- [XNIO-1 task-14] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:47618
+2020-02-20 13:12:20.859  INFO 878 --- [XNIO-1 task-14] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2020-02-20 13:12:20.862  INFO 878 --- [XNIO-1 task-14] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:47618
+2020-02-20 13:12:29.122  INFO 878 --- [XNIO-1 task-15] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-02-20 13:12:29.333  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"sessionId":"cd645c1ef9587928b82aaef4cd560a9f","op":"voiceUpdate","guildId":"653060383602376764","event":{"token":"2985bc4b9e580495","guild_id":"653060383602376764","endpoint":"eu-central681.discord.media:80"}}
+2020-02-20 13:12:29.647  INFO 878 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: 10 osu
+2020-02-20 13:12:39.131  INFO 878 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-02-20 13:12:39.805  INFO 878 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: 10second osu
+2020-02-20 13:12:43.829  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"653060383602376764","track":"QAAAewIAF29zdSEgMTAgc2Vjb25kIGdvZCBtb2RlAApEb25nZXJEdWNrAAAAAAAAkIgACzNWRHNYNF9IM3ZFAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9M1ZEc1g0X0gzdkUAB3lvdXR1YmUAAAAAAAAAAA=="}
+2020-02-20 13:13:20.225  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:47618 -- CloseStatus[code=1006, reason=]
+2020-02-20 13:13:20.226  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2020-02-20 13:13:20.227  INFO 878 --- [XNIO-1 I/O-2] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring disabled.
+2020-02-20 13:14:30.949  INFO 878 --- [XNIO-1 task-3] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:47652
+2020-02-20 13:14:30.960  INFO 878 --- [XNIO-1 task-3] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2020-02-20 13:14:30.966  INFO 878 --- [XNIO-1 task-3] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:47652
+2020-02-20 13:14:38.824  INFO 878 --- [XNIO-1 task-4] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-02-20 13:14:39.033  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"sessionId":"7da7d714ec8bf60f010ceada88038f24","op":"voiceUpdate","guildId":"653060383602376764","event":{"token":"2985bc4b9e580495","guild_id":"653060383602376764","endpoint":"eu-central681.discord.media:80"}}
+2020-02-20 13:14:39.181  INFO 878 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: osu 10s
+2020-02-20 13:14:48.330  INFO 878 --- [XNIO-1 task-6] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-02-20 13:14:48.729  INFO 878 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: osu 10second
+2020-02-20 13:14:54.612  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"653060383602376764","track":"QAAAjgIALkZBU1RFU1QgQlVUVE9OIE1BU0hFUiBJTiBUSEUgV09STEQgKDMxLjI1IENQUykABkx1ZHdpZwAAAAAABIwQAAtIbG5JS0tvOW5SWQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PUhsbklLS285blJZAAd5b3V0dWJlAAAAAAAAAAA="}
+2020-02-20 13:14:58.274  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"653060383602376764"}
+2020-02-20 13:16:00.251  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"653060383602376764"}
+2020-02-20 13:16:11.260  INFO 878 --- [XNIO-1 task-8] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-02-20 13:16:11.464  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"sessionId":"7da7d714ec8bf60f010ceada88038f24","op":"voiceUpdate","guildId":"653060383602376764","event":{"token":"8e98646588a56b27","guild_id":"653060383602376764","endpoint":"eu-central681.discord.media:80"}}
+2020-02-20 13:16:12.232  INFO 878 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: 5second video
+2020-02-20 13:16:15.038  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"653060383602376764","track":"QAAAjwIAMTUgU2Vjb25kcyBPZiBTdW1tZXIgLSBZb3VuZ2Jsb29kIChPZmZpY2lhbCBWaWRlbykABDVTT1MAAAAAAAOCcAALLVJKU2JPOFVaVlkAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj0tUkpTYk84VVpWWQAHeW91dHViZQAAAAAAAAAA"}
+2020-02-20 13:16:19.175  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"653060383602376764"}
+2020-02-20 13:18:26.401  INFO 878 --- [XNIO-1 task-10] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-02-20 13:18:26.624  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"sessionId":"7da7d714ec8bf60f010ceada88038f24","op":"voiceUpdate","guildId":"653060383602376764","event":{"token":"296d749e8687219b","guild_id":"653060383602376764","endpoint":"eu-central681.discord.media:80"}}
+2020-02-20 13:18:26.974  INFO 878 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Funny 2 second video
+2020-02-20 13:18:26.980  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"653060383602376764","track":"QAAAfAIAFEZ1bm55IDIgc2Vjb25kIHZpZGVvAA5DYWlkIFNjaHJvZWRlcgAAAAAAAAfQAAs1REVkUjVscW5ERQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PTVERWRSNWxxbkRFAAd5b3V0dWJlAAAAAAAAAAA="}
+2020-02-20 13:18:29.283  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"653060383602376764"}
+2020-02-20 13:19:07.822  INFO 878 --- [XNIO-1 task-12] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-02-20 13:19:08.036  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"sessionId":"7da7d714ec8bf60f010ceada88038f24","op":"voiceUpdate","guildId":"653060383602376764","event":{"token":"41678b57b2410c0b","guild_id":"653060383602376764","endpoint":"eu-central681.discord.media:80"}}
+2020-02-20 13:19:08.244  INFO 878 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: kidaki 1
+2020-02-20 13:19:09.682  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"653060383602376764","track":"QAAAqgIARUV2YSBmdCBraWRha2kgKCByZW1peCBwaG90byBsZXMgNCBzb24gZGUgZXZhIDEgc29uIGRlIGtpZGFraSBpbnNvbW5pZQALRXZhIFNvY2lhdXgAAAAAAAFT2AALc000RE1HM081OG8AAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1zTTRETUczTzU4bwAHeW91dHViZQAAAAAAAAAA"}
+2020-02-20 13:19:13.086  INFO 878 --- [XNIO-1 task-14] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-02-20 13:19:13.472  INFO 878 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: kidaki 2
+2020-02-20 13:19:18.083  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"653060383602376764"}
+2020-02-20 13:19:18.085  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"653060383602376764","track":"QAAAmQIAOUtoaWRraSAtIOCkluCkv+CkoeCkvOCkleClgCAtIEVwaXNvZGUgMiAtIDI5dGggSnVuZSwgMjAxNgAGU0FCIFRWAAAAAAAWgbgAC2F5RHNpRkNVN3NjAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9YXlEc2lGQ1U3c2MAB3lvdXR1YmUAAAAAAAAAAA=="}
+2020-02-20 13:19:21.813  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"653060383602376764"}
+2020-02-20 13:22:21.326  INFO 878 --- [XNIO-1 task-16] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-02-20 13:22:21.795  INFO 878 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: kidaki
+2020-02-20 13:25:27.892  INFO 878 --- [XNIO-1 task-2] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:47762
+2020-02-20 13:25:27.896  INFO 878 --- [XNIO-1 task-2] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2020-02-20 13:25:27.903  INFO 878 --- [XNIO-1 task-2] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:47762
+2020-02-20 13:25:39.224  INFO 878 --- [parallel-1] s.n.m.impl.connections.AudioWebSocket    : Websocket to wss://eu-central681.discord.media/?v=4 closed with code 4014 and reason Disconnected.
+2020-02-20 13:25:39.225  INFO 878 --- [parallel-1] s.n.m.impl.connections.AudioWebSocket    : Closing
+2020-02-20 13:25:41.816  INFO 878 --- [XNIO-1 task-3] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-02-20 13:25:42.028  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"sessionId":"a10d674efbad9bd608a96677075a8b2f","op":"voiceUpdate","guildId":"653060383602376764","event":{"token":"b14e2529663f7e18","guild_id":"653060383602376764","endpoint":"eu-central681.discord.media:80"}}
+2020-02-20 13:25:42.391  INFO 878 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: kidaki
+2020-02-20 13:25:43.611  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"653060383602376764","track":"QAAAgQIAHEtpZGFraSAtIFVuZSBiYWxsZSBxdWkgdHVlID8ACzFtaW51dGUycmFwAAAAAAACTdgACzF1WkhqNEpDaWxZAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9MXVaSGo0SkNpbFkAB3lvdXR1YmUAAAAAAAAAAA=="}
+2020-02-20 13:25:46.330  INFO 878 --- [XNIO-1 task-5] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-02-20 13:25:46.833  INFO 878 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: kidaki 2
+2020-02-20 13:25:50.240  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"653060383602376764"}
+2020-02-20 13:25:50.243  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"653060383602376764","track":"QAAAtAIAUVtTT0xEXSBJbnN0cnUgUmFwIC0gS2lkYWtpIEd1aXRhcmUgVHlwZSBCZWF0IMKrIFNvbGl0YWlyZSAywrsgSW5zdHJ1IFRyaXN0ZS9Eb3VjZQAJRWwgQ2hhY29uAAAAAAAC2ngACzR4Z2p4MkZFeXFvAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9NHhnangyRkV5cW8AB3lvdXR1YmUAAAAAAAAAAA=="}
+2020-02-20 13:25:52.068  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"653060383602376764"}
+2020-02-20 13:25:52.071  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"653060383602376764"}
+2020-02-20 13:26:34.313  INFO 878 --- [XNIO-1 task-7] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:47808
+2020-02-20 13:26:34.332  INFO 878 --- [XNIO-1 task-7] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2020-02-20 13:26:34.339  INFO 878 --- [XNIO-1 task-7] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:47808
+2020-02-20 13:26:41.636  INFO 878 --- [XNIO-1 task-8] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-02-20 13:26:41.852  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"sessionId":"09d67f61fd87c30e56f7305024ad5993","op":"voiceUpdate","guildId":"653060383602376764","event":{"token":"566f6408ad395e4d","guild_id":"653060383602376764","endpoint":"eu-central681.discord.media:80"}}
+2020-02-20 13:26:41.993  INFO 878 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: kidaki 1
+2020-02-20 13:26:43.405  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"653060383602376764","track":"QAAAmQIAOUtoaWRraSAtIOCkluCkv+CkoeCkvOCkleClgCAtIEVwaXNvZGUgMiAtIDI5dGggSnVuZSwgMjAxNgAGU0FCIFRWAAAAAAAWgbgAC2F5RHNpRkNVN3NjAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9YXlEc2lGQ1U3c2MAB3lvdXR1YmUAAAAAAAAAAA=="}
+2020-02-20 13:26:46.220  INFO 878 --- [XNIO-1 task-10] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-02-20 13:26:46.718  INFO 878 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: kidaki
+2020-02-20 13:26:52.402  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"653060383602376764"}
+2020-02-20 13:26:52.405  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"653060383602376764","track":"QAAAgQIAHEtpZGFraSAtIFVuZSBiYWxsZSBxdWkgdHVlID8ACzFtaW51dGUycmFwAAAAAAACTdgACzF1WkhqNEpDaWxZAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9MXVaSGo0SkNpbFkAB3lvdXR1YmUAAAAAAAAAAA=="}
+2020-02-20 13:26:55.062  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"653060383602376764"}
+2020-02-20 13:26:58.795  INFO 878 --- [XNIO-1 task-12] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-02-20 13:26:59.202  INFO 878 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: kidaki 1
+2020-02-20 13:27:00.878  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"653060383602376764","track":"QAAAqgIARUV2YSBmdCBraWRha2kgKCByZW1peCBwaG90byBsZXMgNCBzb24gZGUgZXZhIDEgc29uIGRlIGtpZGFraSBpbnNvbW5pZQALRXZhIFNvY2lhdXgAAAAAAAFT2AALc000RE1HM081OG8AAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1zTTRETUczTzU4bwAHeW91dHViZQAAAAAAAAAA"}
+2020-02-20 13:29:02.047  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"653060383602376764"}
+2020-02-20 13:29:03.583  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"sessionId":"09d67f61fd87c30e56f7305024ad5993","op":"voiceUpdate","guildId":"653060383602376764","event":{"token":"64b430cf25ee13c3","guild_id":"653060383602376764","endpoint":"eu-central681.discord.media:80"}}
+2020-02-20 13:29:06.756  INFO 878 --- [XNIO-1 task-14] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-02-20 13:29:07.156  INFO 878 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: kidaki 1
+2020-02-20 13:29:08.305  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"653060383602376764","track":"QAAAqgIARUV2YSBmdCBraWRha2kgKCByZW1peCBwaG90byBsZXMgNCBzb24gZGUgZXZhIDEgc29uIGRlIGtpZGFraSBpbnNvbW5pZQALRXZhIFNvY2lhdXgAAAAAAAFT2AALc000RE1HM081OG8AAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1zTTRETUczTzU4bwAHeW91dHViZQAAAAAAAAAA"}
+2020-02-20 13:29:11.115  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"653060383602376764"}
