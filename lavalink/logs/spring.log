@@ -1,0 +1,474 @@
+2020-02-20 04:04:32.564  INFO 6380 --- [XNIO-1 task-3] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:43558
+2020-02-20 04:04:32.590  INFO 6380 --- [XNIO-1 task-3] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2020-02-20 04:04:32.675  INFO 6380 --- [XNIO-1 task-3] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:43558
+2020-02-20 04:04:45.081  INFO 6380 --- [XNIO-1 task-4] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-02-20 04:04:45.264  INFO 6380 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"sessionId":"bb3778dcd68e1568f37dbedbea88d5b2","op":"voiceUpdate","guildId":"653060383602376764","event":{"token":"6921d0a393df31b6","guild_id":"653060383602376764","endpoint":"eu-central208.discord.media:80"}}
+2020-02-20 04:04:47.765  INFO 6380 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: kidaki
+2020-02-20 04:04:53.552  INFO 6380 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"653060383602376764","track":"QAAAgQIAHEtpZGFraSAtIFVuZSBiYWxsZSBxdWkgdHVlID8ACzFtaW51dGUycmFwAAAAAAACTdgACzF1WkhqNEpDaWxZAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9MXVaSGo0SkNpbFkAB3lvdXR1YmUAAAAAAAAAAA=="}
+2020-02-20 04:12:24.457  INFO 6380 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"653060383602376764"}
+2020-02-20 04:45:32.462  INFO 6380 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:43558 -- CloseStatus[code=1006, reason=]
+2020-02-20 04:45:32.463  INFO 6380 --- [XNIO-1 I/O-2] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2020-02-20 04:45:32.464  INFO 6380 --- [XNIO-1 I/O-2] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring disabled.
+2020-02-20 08:59:47.975  INFO 6380 --- [XNIO-1 task-6] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:43598
+2020-02-20 08:59:47.982  INFO 6380 --- [XNIO-1 task-6] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2020-02-20 08:59:47.985  INFO 6380 --- [XNIO-1 task-6] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:43598
+2020-02-20 09:30:37.009  INFO 6380 --- [XNIO-1 task-7] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:43606
+2020-02-20 09:30:37.016  INFO 6380 --- [XNIO-1 task-7] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2020-02-20 09:30:37.018  INFO 6380 --- [XNIO-1 task-7] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:43606
+2020-02-20 09:34:56.213  INFO 6380 --- [XNIO-1 task-8] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:43614
+2020-02-20 09:34:56.227  INFO 6380 --- [XNIO-1 task-8] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2020-02-20 09:34:56.252  INFO 6380 --- [XNIO-1 task-8] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:43614
+2020-02-20 09:36:28.049  INFO 6380 --- [XNIO-1 task-9] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:43622
+2020-02-20 09:36:28.058  INFO 6380 --- [XNIO-1 task-9] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2020-02-20 09:36:28.070  INFO 6380 --- [XNIO-1 task-9] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:43622
+2020-02-20 09:36:33.911  INFO 6380 --- [XNIO-1 task-10] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:43630
+2020-02-20 09:36:33.917  INFO 6380 --- [XNIO-1 task-10] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2020-02-20 09:36:33.920  INFO 6380 --- [XNIO-1 task-10] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:43630
+2020-02-20 09:38:53.490  INFO 6380 --- [XNIO-1 task-11] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:43638
+2020-02-20 09:38:53.495  INFO 6380 --- [XNIO-1 task-11] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2020-02-20 09:38:53.500  INFO 6380 --- [XNIO-1 task-11] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:43638
+2020-02-20 09:42:34.011  INFO 6380 --- [XNIO-1 task-12] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:43646
+2020-02-20 09:42:34.018  INFO 6380 --- [XNIO-1 task-12] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2020-02-20 09:42:34.022  INFO 6380 --- [XNIO-1 task-12] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:43646
+2020-02-20 09:44:45.433  INFO 6380 --- [XNIO-1 task-13] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:43656
+2020-02-20 09:44:45.438  INFO 6380 --- [XNIO-1 task-13] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2020-02-20 09:44:45.442  INFO 6380 --- [XNIO-1 task-13] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:43656
+2020-02-20 09:47:11.336  INFO 6380 --- [XNIO-1 task-14] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:43666
+2020-02-20 09:47:11.346  INFO 6380 --- [XNIO-1 task-14] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2020-02-20 09:47:11.350  INFO 6380 --- [XNIO-1 task-14] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:43666
+2020-02-20 09:51:32.835 ERROR 6380 --- [XNIO-1 task-15] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /127.0.0.1:43684
+2020-02-20 09:52:44.407  INFO 6380 --- [Thread-1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-20 09:52:44.408  INFO 6380 --- [Thread-1] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring disabled.
+2020-02-20 09:52:44.453  INFO 6380 --- [Thread-1] io.undertow.servlet                      : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-02-20 09:52:44.468 ERROR 6380 --- [XNIO-1 I/O-2] org.xnio.listener                        : XNIO001007: A channel event listener threw an exception
+
+java.util.concurrent.RejectedExecutionException: XNIO007007: Thread is terminating
+	at org.xnio.nio.WorkerThread.execute(WorkerThread.java:590) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+	at io.undertow.websockets.jsr.UndertowSession$3.handleEvent(UndertowSession.java:396) ~[undertow-websockets-jsr-2.0.26.Final.jar!/:2.0.26.Final]
+	at io.undertow.websockets.jsr.UndertowSession$3.handleEvent(UndertowSession.java:388) ~[undertow-websockets-jsr-2.0.26.Final.jar!/:2.0.26.Final]
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameCloseListener.handleEvent(AbstractFramedChannel.java:1063) ~[undertow-core-2.0.26.Final.jar!/:2.0.26.Final]
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameCloseListener.handleEvent(AbstractFramedChannel.java:978) ~[undertow-core-2.0.26.Final.jar!/:2.0.26.Final]
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.conduits.WriteReadyHandler$ChannelListenerHandler.terminated(WriteReadyHandler.java:70) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.nio.NioSocketConduit.writeTerminated(NioSocketConduit.java:234) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.nio.NioSocketConduit.terminateWrites(NioSocketConduit.java:223) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.nio.NioSocketConduit.truncateWrites(NioSocketConduit.java:228) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+	at io.undertow.conduits.IdleTimeoutConduit.truncateWrites(IdleTimeoutConduit.java:387) ~[undertow-core-2.0.26.Final.jar!/:2.0.26.Final]
+	at org.xnio.conduits.ConduitStreamSinkChannel.close(ConduitStreamSinkChannel.java:186) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.IoUtils.safeClose(IoUtils.java:134) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.conduits.WriteReadyHandler$ChannelListenerHandler.forceTermination(WriteReadyHandler.java:57) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.nio.NioSocketConduit.forceTermination(NioSocketConduit.java:107) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.nio.WorkerThread.run(WorkerThread.java:494) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+
+2020-02-20 09:52:44.477 ERROR 6380 --- [XNIO-1 I/O-2] org.xnio.listener                        : XNIO001007: A channel event listener threw an exception
+
+java.util.concurrent.RejectedExecutionException: XNIO007007: Thread is terminating
+	at org.xnio.nio.WorkerThread.execute(WorkerThread.java:590) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+	at io.undertow.websockets.jsr.UndertowSession$3.handleEvent(UndertowSession.java:396) ~[undertow-websockets-jsr-2.0.26.Final.jar!/:2.0.26.Final]
+	at io.undertow.websockets.jsr.UndertowSession$3.handleEvent(UndertowSession.java:388) ~[undertow-websockets-jsr-2.0.26.Final.jar!/:2.0.26.Final]
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameCloseListener.handleEvent(AbstractFramedChannel.java:1063) ~[undertow-core-2.0.26.Final.jar!/:2.0.26.Final]
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameCloseListener.handleEvent(AbstractFramedChannel.java:978) ~[undertow-core-2.0.26.Final.jar!/:2.0.26.Final]
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.conduits.WriteReadyHandler$ChannelListenerHandler.terminated(WriteReadyHandler.java:70) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.nio.NioSocketConduit.writeTerminated(NioSocketConduit.java:234) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.nio.NioSocketConduit.terminateWrites(NioSocketConduit.java:223) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.nio.NioSocketConduit.truncateWrites(NioSocketConduit.java:228) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+	at io.undertow.conduits.IdleTimeoutConduit.truncateWrites(IdleTimeoutConduit.java:387) ~[undertow-core-2.0.26.Final.jar!/:2.0.26.Final]
+	at org.xnio.conduits.ConduitStreamSinkChannel.close(ConduitStreamSinkChannel.java:186) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.IoUtils.safeClose(IoUtils.java:134) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.conduits.WriteReadyHandler$ChannelListenerHandler.forceTermination(WriteReadyHandler.java:57) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.nio.NioSocketConduit.forceTermination(NioSocketConduit.java:107) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.nio.WorkerThread.run(WorkerThread.java:494) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+
+2020-02-20 09:52:44.478 ERROR 6380 --- [XNIO-1 I/O-2] org.xnio.listener                        : XNIO001007: A channel event listener threw an exception
+
+java.util.concurrent.RejectedExecutionException: XNIO007007: Thread is terminating
+	at org.xnio.nio.WorkerThread.execute(WorkerThread.java:590) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+	at io.undertow.websockets.jsr.UndertowSession$3.handleEvent(UndertowSession.java:396) ~[undertow-websockets-jsr-2.0.26.Final.jar!/:2.0.26.Final]
+	at io.undertow.websockets.jsr.UndertowSession$3.handleEvent(UndertowSession.java:388) ~[undertow-websockets-jsr-2.0.26.Final.jar!/:2.0.26.Final]
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameCloseListener.handleEvent(AbstractFramedChannel.java:1063) ~[undertow-core-2.0.26.Final.jar!/:2.0.26.Final]
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameCloseListener.handleEvent(AbstractFramedChannel.java:978) ~[undertow-core-2.0.26.Final.jar!/:2.0.26.Final]
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.conduits.WriteReadyHandler$ChannelListenerHandler.terminated(WriteReadyHandler.java:70) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.nio.NioSocketConduit.writeTerminated(NioSocketConduit.java:234) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.nio.NioSocketConduit.terminateWrites(NioSocketConduit.java:223) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.nio.NioSocketConduit.truncateWrites(NioSocketConduit.java:228) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+	at io.undertow.conduits.IdleTimeoutConduit.truncateWrites(IdleTimeoutConduit.java:387) ~[undertow-core-2.0.26.Final.jar!/:2.0.26.Final]
+	at org.xnio.conduits.ConduitStreamSinkChannel.close(ConduitStreamSinkChannel.java:186) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.IoUtils.safeClose(IoUtils.java:134) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.conduits.WriteReadyHandler$ChannelListenerHandler.forceTermination(WriteReadyHandler.java:57) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.nio.NioSocketConduit.forceTermination(NioSocketConduit.java:107) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.nio.WorkerThread.run(WorkerThread.java:494) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+
+2020-02-20 09:52:44.479 ERROR 6380 --- [XNIO-1 I/O-2] org.xnio.listener                        : XNIO001007: A channel event listener threw an exception
+
+java.util.concurrent.RejectedExecutionException: XNIO007007: Thread is terminating
+	at org.xnio.nio.WorkerThread.execute(WorkerThread.java:590) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+	at io.undertow.websockets.jsr.UndertowSession$3.handleEvent(UndertowSession.java:396) ~[undertow-websockets-jsr-2.0.26.Final.jar!/:2.0.26.Final]
+	at io.undertow.websockets.jsr.UndertowSession$3.handleEvent(UndertowSession.java:388) ~[undertow-websockets-jsr-2.0.26.Final.jar!/:2.0.26.Final]
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameCloseListener.handleEvent(AbstractFramedChannel.java:1063) ~[undertow-core-2.0.26.Final.jar!/:2.0.26.Final]
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameCloseListener.handleEvent(AbstractFramedChannel.java:978) ~[undertow-core-2.0.26.Final.jar!/:2.0.26.Final]
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.conduits.WriteReadyHandler$ChannelListenerHandler.terminated(WriteReadyHandler.java:70) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.nio.NioSocketConduit.writeTerminated(NioSocketConduit.java:234) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.nio.NioSocketConduit.terminateWrites(NioSocketConduit.java:223) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.nio.NioSocketConduit.truncateWrites(NioSocketConduit.java:228) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+	at io.undertow.conduits.IdleTimeoutConduit.truncateWrites(IdleTimeoutConduit.java:387) ~[undertow-core-2.0.26.Final.jar!/:2.0.26.Final]
+	at org.xnio.conduits.ConduitStreamSinkChannel.close(ConduitStreamSinkChannel.java:186) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.IoUtils.safeClose(IoUtils.java:134) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.conduits.WriteReadyHandler$ChannelListenerHandler.forceTermination(WriteReadyHandler.java:57) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.nio.NioSocketConduit.forceTermination(NioSocketConduit.java:107) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.nio.WorkerThread.run(WorkerThread.java:494) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+
+2020-02-20 09:52:44.480 ERROR 6380 --- [XNIO-1 I/O-2] org.xnio.listener                        : XNIO001007: A channel event listener threw an exception
+
+java.util.concurrent.RejectedExecutionException: XNIO007007: Thread is terminating
+	at org.xnio.nio.WorkerThread.execute(WorkerThread.java:590) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+	at io.undertow.websockets.jsr.UndertowSession$3.handleEvent(UndertowSession.java:396) ~[undertow-websockets-jsr-2.0.26.Final.jar!/:2.0.26.Final]
+	at io.undertow.websockets.jsr.UndertowSession$3.handleEvent(UndertowSession.java:388) ~[undertow-websockets-jsr-2.0.26.Final.jar!/:2.0.26.Final]
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameCloseListener.handleEvent(AbstractFramedChannel.java:1063) ~[undertow-core-2.0.26.Final.jar!/:2.0.26.Final]
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameCloseListener.handleEvent(AbstractFramedChannel.java:978) ~[undertow-core-2.0.26.Final.jar!/:2.0.26.Final]
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.conduits.WriteReadyHandler$ChannelListenerHandler.terminated(WriteReadyHandler.java:70) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.nio.NioSocketConduit.writeTerminated(NioSocketConduit.java:234) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.nio.NioSocketConduit.terminateWrites(NioSocketConduit.java:223) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.nio.NioSocketConduit.truncateWrites(NioSocketConduit.java:228) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+	at io.undertow.conduits.IdleTimeoutConduit.truncateWrites(IdleTimeoutConduit.java:387) ~[undertow-core-2.0.26.Final.jar!/:2.0.26.Final]
+	at org.xnio.conduits.ConduitStreamSinkChannel.close(ConduitStreamSinkChannel.java:186) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.IoUtils.safeClose(IoUtils.java:134) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.conduits.WriteReadyHandler$ChannelListenerHandler.forceTermination(WriteReadyHandler.java:57) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.nio.NioSocketConduit.forceTermination(NioSocketConduit.java:107) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.nio.WorkerThread.run(WorkerThread.java:494) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+
+2020-02-20 09:52:44.481 ERROR 6380 --- [XNIO-1 I/O-2] org.xnio.listener                        : XNIO001007: A channel event listener threw an exception
+
+java.util.concurrent.RejectedExecutionException: XNIO007007: Thread is terminating
+	at org.xnio.nio.WorkerThread.execute(WorkerThread.java:590) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+	at io.undertow.websockets.jsr.UndertowSession$3.handleEvent(UndertowSession.java:396) ~[undertow-websockets-jsr-2.0.26.Final.jar!/:2.0.26.Final]
+	at io.undertow.websockets.jsr.UndertowSession$3.handleEvent(UndertowSession.java:388) ~[undertow-websockets-jsr-2.0.26.Final.jar!/:2.0.26.Final]
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameCloseListener.handleEvent(AbstractFramedChannel.java:1063) ~[undertow-core-2.0.26.Final.jar!/:2.0.26.Final]
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameCloseListener.handleEvent(AbstractFramedChannel.java:978) ~[undertow-core-2.0.26.Final.jar!/:2.0.26.Final]
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.conduits.WriteReadyHandler$ChannelListenerHandler.terminated(WriteReadyHandler.java:70) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.nio.NioSocketConduit.writeTerminated(NioSocketConduit.java:234) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.nio.NioSocketConduit.terminateWrites(NioSocketConduit.java:223) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.nio.NioSocketConduit.truncateWrites(NioSocketConduit.java:228) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+	at io.undertow.conduits.IdleTimeoutConduit.truncateWrites(IdleTimeoutConduit.java:387) ~[undertow-core-2.0.26.Final.jar!/:2.0.26.Final]
+	at org.xnio.conduits.ConduitStreamSinkChannel.close(ConduitStreamSinkChannel.java:186) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.IoUtils.safeClose(IoUtils.java:134) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.conduits.WriteReadyHandler$ChannelListenerHandler.forceTermination(WriteReadyHandler.java:57) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.nio.NioSocketConduit.forceTermination(NioSocketConduit.java:107) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.nio.WorkerThread.run(WorkerThread.java:494) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+
+2020-02-20 09:52:44.482 ERROR 6380 --- [XNIO-1 I/O-2] org.xnio.listener                        : XNIO001007: A channel event listener threw an exception
+
+java.util.concurrent.RejectedExecutionException: XNIO007007: Thread is terminating
+	at org.xnio.nio.WorkerThread.execute(WorkerThread.java:590) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+	at io.undertow.websockets.jsr.UndertowSession$3.handleEvent(UndertowSession.java:396) ~[undertow-websockets-jsr-2.0.26.Final.jar!/:2.0.26.Final]
+	at io.undertow.websockets.jsr.UndertowSession$3.handleEvent(UndertowSession.java:388) ~[undertow-websockets-jsr-2.0.26.Final.jar!/:2.0.26.Final]
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameCloseListener.handleEvent(AbstractFramedChannel.java:1063) ~[undertow-core-2.0.26.Final.jar!/:2.0.26.Final]
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameCloseListener.handleEvent(AbstractFramedChannel.java:978) ~[undertow-core-2.0.26.Final.jar!/:2.0.26.Final]
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.conduits.WriteReadyHandler$ChannelListenerHandler.terminated(WriteReadyHandler.java:70) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.nio.NioSocketConduit.writeTerminated(NioSocketConduit.java:234) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.nio.NioSocketConduit.terminateWrites(NioSocketConduit.java:223) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.nio.NioSocketConduit.truncateWrites(NioSocketConduit.java:228) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+	at io.undertow.conduits.IdleTimeoutConduit.truncateWrites(IdleTimeoutConduit.java:387) ~[undertow-core-2.0.26.Final.jar!/:2.0.26.Final]
+	at org.xnio.conduits.ConduitStreamSinkChannel.close(ConduitStreamSinkChannel.java:186) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.IoUtils.safeClose(IoUtils.java:134) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.conduits.WriteReadyHandler$ChannelListenerHandler.forceTermination(WriteReadyHandler.java:57) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.nio.NioSocketConduit.forceTermination(NioSocketConduit.java:107) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.nio.WorkerThread.run(WorkerThread.java:494) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+
+2020-02-20 09:52:44.483 ERROR 6380 --- [XNIO-1 I/O-2] org.xnio.listener                        : XNIO001007: A channel event listener threw an exception
+
+java.util.concurrent.RejectedExecutionException: XNIO007007: Thread is terminating
+	at org.xnio.nio.WorkerThread.execute(WorkerThread.java:590) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+	at io.undertow.websockets.jsr.UndertowSession$3.handleEvent(UndertowSession.java:396) ~[undertow-websockets-jsr-2.0.26.Final.jar!/:2.0.26.Final]
+	at io.undertow.websockets.jsr.UndertowSession$3.handleEvent(UndertowSession.java:388) ~[undertow-websockets-jsr-2.0.26.Final.jar!/:2.0.26.Final]
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameCloseListener.handleEvent(AbstractFramedChannel.java:1063) ~[undertow-core-2.0.26.Final.jar!/:2.0.26.Final]
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameCloseListener.handleEvent(AbstractFramedChannel.java:978) ~[undertow-core-2.0.26.Final.jar!/:2.0.26.Final]
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.conduits.WriteReadyHandler$ChannelListenerHandler.terminated(WriteReadyHandler.java:70) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.nio.NioSocketConduit.writeTerminated(NioSocketConduit.java:234) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.nio.NioSocketConduit.terminateWrites(NioSocketConduit.java:223) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.nio.NioSocketConduit.truncateWrites(NioSocketConduit.java:228) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+	at io.undertow.conduits.IdleTimeoutConduit.truncateWrites(IdleTimeoutConduit.java:387) ~[undertow-core-2.0.26.Final.jar!/:2.0.26.Final]
+	at org.xnio.conduits.ConduitStreamSinkChannel.close(ConduitStreamSinkChannel.java:186) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.IoUtils.safeClose(IoUtils.java:134) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.conduits.WriteReadyHandler$ChannelListenerHandler.forceTermination(WriteReadyHandler.java:57) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.nio.NioSocketConduit.forceTermination(NioSocketConduit.java:107) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.nio.WorkerThread.run(WorkerThread.java:494) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+
+2020-02-20 09:52:44.485 ERROR 6380 --- [XNIO-1 I/O-2] org.xnio.listener                        : XNIO001007: A channel event listener threw an exception
+
+java.util.concurrent.RejectedExecutionException: XNIO007007: Thread is terminating
+	at org.xnio.nio.WorkerThread.execute(WorkerThread.java:590) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+	at io.undertow.websockets.jsr.UndertowSession$3.handleEvent(UndertowSession.java:396) ~[undertow-websockets-jsr-2.0.26.Final.jar!/:2.0.26.Final]
+	at io.undertow.websockets.jsr.UndertowSession$3.handleEvent(UndertowSession.java:388) ~[undertow-websockets-jsr-2.0.26.Final.jar!/:2.0.26.Final]
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameCloseListener.handleEvent(AbstractFramedChannel.java:1063) ~[undertow-core-2.0.26.Final.jar!/:2.0.26.Final]
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameCloseListener.handleEvent(AbstractFramedChannel.java:978) ~[undertow-core-2.0.26.Final.jar!/:2.0.26.Final]
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.conduits.WriteReadyHandler$ChannelListenerHandler.terminated(WriteReadyHandler.java:70) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.nio.NioSocketConduit.writeTerminated(NioSocketConduit.java:234) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.nio.NioSocketConduit.terminateWrites(NioSocketConduit.java:223) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.nio.NioSocketConduit.truncateWrites(NioSocketConduit.java:228) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+	at io.undertow.conduits.IdleTimeoutConduit.truncateWrites(IdleTimeoutConduit.java:387) ~[undertow-core-2.0.26.Final.jar!/:2.0.26.Final]
+	at org.xnio.conduits.ConduitStreamSinkChannel.close(ConduitStreamSinkChannel.java:186) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.IoUtils.safeClose(IoUtils.java:134) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.conduits.WriteReadyHandler$ChannelListenerHandler.forceTermination(WriteReadyHandler.java:57) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.nio.NioSocketConduit.forceTermination(NioSocketConduit.java:107) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.nio.WorkerThread.run(WorkerThread.java:494) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+
+2020-02-20 09:56:53.579  INFO 9029 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        4f53d09491ba5254eb5c55c234a63b208388d3ef-SNAPSHOT
+	Build:          965
+	Build time:     28.12.2019 17:02:58 UTC
+	Branch          master
+	Commit:         4f53d09
+	Commit time:    28.12.2019 17:00:51 UTC
+	JVM:            11.0.6
+	Lavaplayer      1.3.32
+
+2020-02-20 09:56:54.161  WARN 9029 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-02-20 09:56:54.255  INFO 9029 --- [main] lavalink.server.Launcher                 : Starting Launcher with PID 9029 (/home/bot/lavalink/Lavalink.jar started by root in /home/bot/lavalink)
+2020-02-20 09:56:54.256  INFO 9029 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2020-02-20 09:56:59.776  WARN 9029 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2020-02-20 09:56:59.873  INFO 9029 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2020-02-20 09:56:59.874  INFO 9029 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5485 ms
+2020-02-20 09:57:01.321  WARN 9029 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2020-02-20 09:57:01.380  INFO 9029 --- [main] l.s.c.AudioSendFactoryConfiguration      : OS: Linux, Arch: amd64
+2020-02-20 09:57:01.385  INFO 9029 --- [main] l.s.c.AudioSendFactoryConfiguration      : JDA-NAS supported system detected. Enabled native audio sending.
+2020-02-20 09:57:01.386  INFO 9029 --- [main] l.s.c.AudioSendFactoryConfiguration      : Setting buffer to 400ms
+2020-02-20 09:57:01.387  INFO 9029 --- [main] l.s.c.AudioSendFactoryConfiguration      : Setting playlist load limit to 6
+2020-02-20 09:57:02.888  INFO 9029 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2020-02-20 09:57:04.880  INFO 9029 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-20 09:57:06.403  INFO 9029 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2020-02-20 09:57:06.470  INFO 9029 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2020-02-20 09:57:06.602  INFO 9029 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 2333 (http) with context path ''
+2020-02-20 09:57:06.657  INFO 9029 --- [main] lavalink.server.Launcher                 : Started Launcher in 16.751 seconds (JVM running for 18.691)
+2020-02-20 09:59:17.400  INFO 9029 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-20 09:59:17.402  INFO 9029 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-02-20 09:59:17.456  INFO 9029 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 54 ms
+2020-02-20 09:59:17.496 ERROR 9029 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /127.0.0.1:43694
+2020-02-20 10:00:28.198  INFO 9248 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        4f53d09491ba5254eb5c55c234a63b208388d3ef-SNAPSHOT
+	Build:          965
+	Build time:     28.12.2019 17:02:58 UTC
+	Branch          master
+	Commit:         4f53d09
+	Commit time:    28.12.2019 17:00:51 UTC
+	JVM:            11.0.6
+	Lavaplayer      1.3.32
+
+2020-02-20 10:00:28.666  WARN 9248 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-02-20 10:00:28.699  INFO 9248 --- [main] lavalink.server.Launcher                 : Starting Launcher with PID 9248 (/home/bot/lavalink/Lavalink.jar started by root in /home/bot/lavalink)
+2020-02-20 10:00:28.700  INFO 9248 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2020-02-20 10:00:34.894  WARN 9248 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2020-02-20 10:00:35.053  INFO 9248 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2020-02-20 10:00:35.054  INFO 9248 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6074 ms
+2020-02-20 10:00:36.892  WARN 9248 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2020-02-20 10:00:36.966  INFO 9248 --- [main] l.s.c.AudioSendFactoryConfiguration      : OS: Linux, Arch: amd64
+2020-02-20 10:00:36.967  INFO 9248 --- [main] l.s.c.AudioSendFactoryConfiguration      : JDA-NAS supported system detected. Enabled native audio sending.
+2020-02-20 10:00:36.967  INFO 9248 --- [main] l.s.c.AudioSendFactoryConfiguration      : Setting buffer to 400ms
+2020-02-20 10:00:36.967  INFO 9248 --- [main] l.s.c.AudioSendFactoryConfiguration      : Setting playlist load limit to 6
+2020-02-20 10:00:38.862  INFO 9248 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2020-02-20 10:00:41.186  INFO 9248 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-20 10:00:42.976  INFO 9248 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2020-02-20 10:00:42.998  INFO 9248 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2020-02-20 10:00:43.363  INFO 9248 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-02-20 10:00:43.374 ERROR 9248 --- [main] lavalink.server.Launcher                 : Application failed
+
+org.springframework.boot.web.server.PortInUseException: Port 2333 is already in use
+	at org.springframework.boot.web.embedded.undertow.UndertowServletWebServer.start(UndertowServletWebServer.java:154) ~[spring-boot-2.1.8.RELEASE.jar!/:2.1.8.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:297) ~[spring-boot-2.1.8.RELEASE.jar!/:2.1.8.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:163) ~[spring-boot-2.1.8.RELEASE.jar!/:2.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552) ~[spring-context-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.1.8.RELEASE.jar!/:2.1.8.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744) ~[spring-boot-2.1.8.RELEASE.jar!/:2.1.8.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391) ~[spring-boot-2.1.8.RELEASE.jar!/:2.1.8.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312) ~[spring-boot-2.1.8.RELEASE.jar!/:2.1.8.RELEASE]
+	at lavalink.server.Launcher.main(Launcher.kt:127) ~[classes!/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48) ~[Lavalink.jar:na]
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:87) ~[Lavalink.jar:na]
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:51) ~[Lavalink.jar:na]
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:52) ~[Lavalink.jar:na]
+
+2020-02-20 10:00:43.381 ERROR 9248 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 2333 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 2333 or configure this application to listen on another port.
+
+2020-02-20 10:00:43.397  INFO 9248 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-20 10:00:43.399  INFO 9248 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring disabled.
+2020-02-20 10:02:26.383  INFO 9322 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        4f53d09491ba5254eb5c55c234a63b208388d3ef-SNAPSHOT
+	Build:          965
+	Build time:     28.12.2019 17:02:58 UTC
+	Branch          master
+	Commit:         4f53d09
+	Commit time:    28.12.2019 17:00:51 UTC
+	JVM:            11.0.6
+	Lavaplayer      1.3.32
+
+2020-02-20 10:02:27.070  INFO 9322 --- [main] lavalink.server.Launcher                 : Starting Launcher with PID 9322 (/home/bot/lavalink/Lavalink.jar started by root in /home/bot/lavalink)
+2020-02-20 10:02:27.071  INFO 9322 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2020-02-20 10:02:27.155  WARN 9322 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-02-20 10:02:33.301  WARN 9322 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2020-02-20 10:02:33.379  INFO 9322 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2020-02-20 10:02:33.380  INFO 9322 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6106 ms
+2020-02-20 10:02:34.496  WARN 9322 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2020-02-20 10:02:34.587  INFO 9322 --- [main] l.s.c.AudioSendFactoryConfiguration      : OS: Linux, Arch: amd64
+2020-02-20 10:02:34.591  INFO 9322 --- [main] l.s.c.AudioSendFactoryConfiguration      : JDA-NAS supported system detected. Enabled native audio sending.
+2020-02-20 10:02:34.592  INFO 9322 --- [main] l.s.c.AudioSendFactoryConfiguration      : Setting buffer to 400ms
+2020-02-20 10:02:34.594  INFO 9322 --- [main] l.s.c.AudioSendFactoryConfiguration      : Setting playlist load limit to 6
+2020-02-20 10:02:36.595  INFO 9322 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2020-02-20 10:02:38.398  INFO 9322 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-20 10:02:40.365  INFO 9322 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2020-02-20 10:02:40.382  INFO 9322 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2020-02-20 10:02:40.753  INFO 9322 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-02-20 10:02:40.757 ERROR 9322 --- [main] lavalink.server.Launcher                 : Application failed
+
+org.springframework.boot.web.server.PortInUseException: Port 2333 is already in use
+	at org.springframework.boot.web.embedded.undertow.UndertowServletWebServer.start(UndertowServletWebServer.java:154) ~[spring-boot-2.1.8.RELEASE.jar!/:2.1.8.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:297) ~[spring-boot-2.1.8.RELEASE.jar!/:2.1.8.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:163) ~[spring-boot-2.1.8.RELEASE.jar!/:2.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552) ~[spring-context-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.1.8.RELEASE.jar!/:2.1.8.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744) ~[spring-boot-2.1.8.RELEASE.jar!/:2.1.8.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391) ~[spring-boot-2.1.8.RELEASE.jar!/:2.1.8.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312) ~[spring-boot-2.1.8.RELEASE.jar!/:2.1.8.RELEASE]
+	at lavalink.server.Launcher.main(Launcher.kt:127) ~[classes!/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48) ~[Lavalink.jar:na]
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:87) ~[Lavalink.jar:na]
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:51) ~[Lavalink.jar:na]
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:52) ~[Lavalink.jar:na]
+
+2020-02-20 10:02:40.763 ERROR 9322 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 2333 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 2333 or configure this application to listen on another port.
+
+2020-02-20 10:02:40.768  INFO 9322 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-20 10:02:40.769  INFO 9322 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring disabled.
+2020-02-20 10:03:28.468  INFO 9029 --- [Thread-1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-20 10:03:28.473  INFO 9029 --- [Thread-1] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring disabled.
+2020-02-20 10:03:28.491  INFO 9029 --- [Thread-1] io.undertow.servlet                      : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-02-20 10:12:08.501  INFO 878 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        4f53d09491ba5254eb5c55c234a63b208388d3ef-SNAPSHOT
+	Build:          965
+	Build time:     28.12.2019 17:02:58 UTC
+	Branch          master
+	Commit:         4f53d09
+	Commit time:    28.12.2019 17:00:51 UTC
+	JVM:            11.0.6
+	Lavaplayer      1.3.32
+
+2020-02-20 10:12:09.092  INFO 878 --- [main] lavalink.server.Launcher                 : Starting Launcher with PID 878 (/home/bot/lavalink/Lavalink.jar started by root in /home/bot/lavalink)
+2020-02-20 10:12:09.094  INFO 878 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2020-02-20 10:12:09.299  WARN 878 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-02-20 10:12:16.100  WARN 878 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2020-02-20 10:12:16.186  INFO 878 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2020-02-20 10:12:16.191  INFO 878 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6734 ms
+2020-02-20 10:12:17.572  WARN 878 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2020-02-20 10:12:17.653  INFO 878 --- [main] l.s.c.AudioSendFactoryConfiguration      : OS: Linux, Arch: amd64
+2020-02-20 10:12:17.654  INFO 878 --- [main] l.s.c.AudioSendFactoryConfiguration      : JDA-NAS supported system detected. Enabled native audio sending.
+2020-02-20 10:12:17.656  INFO 878 --- [main] l.s.c.AudioSendFactoryConfiguration      : Setting buffer to 400ms
+2020-02-20 10:12:17.657  INFO 878 --- [main] l.s.c.AudioSendFactoryConfiguration      : Setting playlist load limit to 6
+2020-02-20 10:12:19.197  INFO 878 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2020-02-20 10:12:21.086  INFO 878 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-20 10:12:22.974  INFO 878 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2020-02-20 10:12:22.992  INFO 878 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2020-02-20 10:12:23.300  INFO 878 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 2333 (http) with context path ''
+2020-02-20 10:12:23.366  INFO 878 --- [main] lavalink.server.Launcher                 : Started Launcher in 18.463 seconds (JVM running for 21.317)
+2020-02-20 10:13:17.984  INFO 878 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-20 10:13:17.985  INFO 878 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-02-20 10:13:18.000  INFO 878 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2020-02-20 10:13:18.156  INFO 878 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:46964
+2020-02-20 10:13:18.398  INFO 878 --- [XNIO-1 task-1] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2020-02-20 10:13:18.657  INFO 878 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:46964
+2020-02-20 10:14:05.697  INFO 878 --- [XNIO-1 task-2] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:47006
+2020-02-20 10:14:05.703  INFO 878 --- [XNIO-1 task-2] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2020-02-20 10:14:05.707  INFO 878 --- [XNIO-1 task-2] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:47006
+2020-02-20 10:14:17.400  INFO 878 --- [XNIO-1 task-3] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-02-20 10:14:17.553  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"sessionId":"07226434efee5e1ed78e8ebe4914594b","op":"voiceUpdate","guildId":"653060383602376764","event":{"token":"6cf38860fcd947c6","guild_id":"653060383602376764","endpoint":"eu-central681.discord.media:80"}}
+2020-02-20 10:14:19.198  WARN 878 --- [lava-daemon-pool-manager-3-thread-1] c.s.d.l.tools.GarbageCollectionMonitor   : Suspicious GC results for the last 2 minutes: [Bucket 0 = 6] [Bucket 20 = 0] [Bucket 50 = 3] [Bucket 200 = 0] [Bucket 500 = 0] [Bucket 2000 = 0] 
+2020-02-20 10:14:20.963  INFO 878 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: kidaki
+2020-02-20 10:14:23.117  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"653060383602376764","track":"QAAAgQIAHEtpZGFraSAtIFVuZSBiYWxsZSBxdWkgdHVlID8ACzFtaW51dGUycmFwAAAAAAACTdgACzF1WkhqNEpDaWxZAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9MXVaSGo0SkNpbFkAB3lvdXR1YmUAAAAAAAAAAA=="}
+2020-02-20 10:15:18.398  WARN 878 --- [lava-daemon-pool-manager-7-thread-1] c.s.d.l.tools.GarbageCollectionMonitor   : Suspicious GC results for the last 2 minutes: [Bucket 0 = 4] [Bucket 20 = 0] [Bucket 50 = 3] [Bucket 200 = 0] [Bucket 500 = 0] [Bucket 2000 = 0] 
+2020-02-20 10:16:05.703  WARN 878 --- [lava-daemon-pool-manager-11-thread-1] c.s.d.l.tools.GarbageCollectionMonitor   : Suspicious GC results for the last 2 minutes: [Bucket 0 = 3] [Bucket 20 = 0] [Bucket 50 = 3] [Bucket 200 = 0] [Bucket 500 = 0] [Bucket 2000 = 0] 
+2020-02-20 10:21:54.521  INFO 878 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"653060383602376764"}
+2020-02-20 11:50:54.944  INFO 878 --- [XNIO-1 task-5] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:47058
+2020-02-20 11:50:54.959  INFO 878 --- [XNIO-1 task-5] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2020-02-20 11:50:54.968  INFO 878 --- [XNIO-1 task-5] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:47058
