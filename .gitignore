@@ -2,3 +2,5 @@ private/.env
 private/botconfig.json
 lavalink/application.yml
 node_modules/
+lavalink/logs/
+changelog.txt

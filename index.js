@@ -58,7 +58,9 @@ client.on("ready", () => {
             }, 300000);
             
         })
-        .on("trackStart", ({textChannel}, {title, duration}) => {
+        .on("trackStart", (player, {title, duration}) => {
+            const textChannel = player.textChannel;
+            player.setVolume(50)
             const embednp = new RichEmbed()
             .setTitle("🎶 Now playing")
             .setDescription(`\`${title}\`  \`${Utils.formatTime(duration, true)}\``)
