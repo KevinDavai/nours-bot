@@ -11,23 +11,50 @@ module.exports = {
     run: async (client, message, args) => {
 
 
-        const { voiceChannel } = message.member;
         const player = client.music.players.get(message.guild.id);
         if (!player || !player.queue[0]) return message.channel.send("No song/s currently playing within this guild.");
+          if (player.position > 5000){
+            getnowplaying()
+          }
+          if (player.position < 5000){
+            setTimeout(() => {
+            getnowplaying()
+            },3000)
+          }
+          
+          function getnowplaying(){
+          let { title, author, duration, thumbnail, requester } = player.queue[0];
+          let amount = `00:${Utils.formatTime(player.position, true)}`
+          const part = Math.floor((player.position / duration) * 10);
+          const giveEmbed = new RichEmbed()
+            .setColor("AQUA")
+            .setDescription(`${player.playing ? "▶️" : "⏸️"} Currently Playing ${title}\n${"▬".repeat(part) + "🔘" + "▬".repeat(10 - part)}[${amount} / ${Utils.formatTime(duration, true)}]\nRequested By: ${requester.tag}`)
 
-        if(voiceChannel && voiceChannel.id !== player.voiceChannel.id) return message.channel.send("You need to be in the same channel of the bot to use the leave command.");
-        if(!voiceChannel) return message.channel.send("You need to be in the same channel of the bot to use the leave command.");
-      
-
-        const { title, author, duration, thumbnail } = player.queue[0];
-
-        const embed = new RichEmbed()
-          .setAuthor("Current Song Playing.", message.author.displayAvatarURL)
-          .setThumbnail(thumbnail)
-          .setDescription(stripIndents`
-          ${player.playing ? "▶️" : "⏸️"} **${title}** \`${Utils.formatTime(duration, true)}\` by ${author}
-          `);
-
-        return message.channel.send(embed);
+        message.channel.send({embed: giveEmbed}).then(m => {
+          const counter = setInterval(() => {
+            if(player.playing !== true){
+              clearInterval(counter)
+            }
+          if(player.position>5000){
+          if(player.position < 60000){
+            if(player.playing === true){
+            let { title, author, duration, thumbnail, requester } = player.queue[0];
+            let amount = `00:${Utils.formatTime(player.position, true)}`
+            const part = Math.floor((player.position / duration) * 10);
+            giveEmbed.setDescription(`${player.playing ? "▶️" : "⏸️"} Currently Playing ${title}\n${"▬".repeat(part) + "🔘" + "▬".repeat(10 - part)}[${amount} / ${Utils.formatTime(duration, true)}]\nRequested By: ${requester.tag}`)
+            }
+          }else{
+            if(player.playing === true){
+            let { title, author, duration, thumbnail, requester } = player.queue[0];
+            const amount = `${Utils.formatTime(player.position, true)}`
+            const part = Math.floor((player.position / duration) * 10);
+            giveEmbed.setDescription(`${player.playing ? "▶️" : "⏸️"} Currently Playing ${title}\n${"▬".repeat(part) + "🔘" + "▬".repeat(9 - part)}[${amount} / ${Utils.formatTime(duration, true)}]\nRequested By: ${requester.tag}`)
+            }
+          }
+        }
+          m.edit(giveEmbed)
+          },4000)
+      })
     }
+}
 }
