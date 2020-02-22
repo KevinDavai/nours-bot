@@ -95,8 +95,7 @@ client.on("guildCreate", guild1 => {
 
         if (!guild) {
             const newConfig = new Prefix({
-                guildID: id,
-                prefix: "_"
+                guildID: id
             });
 
             newConfig.save();
@@ -133,6 +132,15 @@ client.on("message", async message => {
              guildID: message.guild.id
        }, (err, guild) => {
            if (err) console.error(err);
+
+           if (!guild) {
+            const newConfig = new Prefix({
+                guildID: message.guild.id
+            });
+
+            newConfig.save();
+            guild = { guildID: message.guild.id, prefix: '_' }
+        }
            
          let prefix = guild.prefix;
 
