@@ -64,7 +64,7 @@ client.on("ready", () => {
             const embednp = new RichEmbed()
             .setTitle("🎶 Now playing")
             .setDescription(`\`${title}\`  \`${Utils.formatTime(duration, true)}\``)
-            textChannel.send(embednp)
+            textChannel.send(embednp).then(m => m.delete(10000));
             if (timeout) {
                 clearTimeout(timeout)
             }
