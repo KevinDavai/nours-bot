@@ -9,5 +9,5 @@ module.exports = (client) => {
             client.on(eName, evt.bind(null, client));
           };
         };
-        ["client", "message", "guildcreate"].forEach(x => load(x));
-};
+        ["client", "message", "guildadd"].forEach(x => load(x));
+}; 

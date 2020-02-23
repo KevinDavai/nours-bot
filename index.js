@@ -2,10 +2,6 @@ const { Client, RichEmbed, Collection } = require("discord.js");
 const { config } = require("dotenv");
 const fs = require("fs");
 const mongoose = require("mongoose");
-const Prefix = require('./models/prefix.js');
-const { stripIndents } = require("common-tags");
-const { ErelaClient, Utils } = require("erela.js");
-const { nodes } = require("./private/botconfig.json");
 
 config({
     path: "./private/.env"
@@ -27,8 +23,6 @@ const Tenor = require("tenorjs").client({
     "MediaFilter": "minimal", // either minimal or basic, not case sensitive
     "DateFormat": "D/MM/YYYY - H:mm:ss A" // Change this accordingly
 });
-
-
 
 
 client.commands = new Collection();

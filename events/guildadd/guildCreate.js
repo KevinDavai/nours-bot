@@ -1,4 +1,8 @@
-module.exports = async (client) => {
+const Prefix = require('../../models/prefix.js');
+const { RichEmbed } = require("discord.js")
+const { stripIndents } = require("common-tags");
+
+module.exports = async (client, guild1) => {
 
     const id = guild1.id
     Prefix.findOne({
