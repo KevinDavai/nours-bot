@@ -1,5 +1,7 @@
 const { ErelaClient, Utils } = require("erela.js");
 const { nodes } = require("../../private/botconfig.json");
+const { RichEmbed } = require("discord.js")
+
 let timeout
 
 module.exports = async client => {
