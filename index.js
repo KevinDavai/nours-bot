@@ -34,22 +34,4 @@ client.categories = fs.readdirSync("./commands/");
     require(`./handler/${handler}`)(client);
 });
 
-
-
-
-
-/*client.on("voiceStateUpdate", (oldMember, GuildMember, player) => {
-    const voiceConnection = GuildMember.guild.voiceConnection;
-    const ChannelBot = client.voiceChannelID
-    if(voiceConnection !== null && voiceConnection.channel.members.filter(m => !m.user.bot).size < 1) {
-      console.log("test")
-    } else {
-      console.log("test2")
-      client.music.players.destroy(player.guild.id)
-    }
-  })
-*/
-
-
-
 client.login(process.env.TOKEN);
