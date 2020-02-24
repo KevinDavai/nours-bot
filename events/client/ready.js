@@ -30,6 +30,9 @@ module.exports = async client => {
                 clearTimeout(timeout)
             }
         })
+        .on("socketClosed", player => {
+            client.music.players.destroy(player.guild.id)
+        })
 
 
     client.levels = new Map()
