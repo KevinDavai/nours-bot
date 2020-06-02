@@ -3,7 +3,7 @@ module.exports = {
     name: "say",
     aliases: ["bc", "broadcast"],
     category: "moderation",
-    description: "Envoyer un message grâce au bot",
+    description: "Envoyer un message grâcee au bot",
     usage: "<message>",
     run: async (client, message, args) => {
 
