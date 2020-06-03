@@ -1,5 +1,5 @@
 const { Utils } = require("erela.js")
-const { RichEmbed } = require("discord.js")
+const Discord = require("discord.js")
 
 
 module.exports = {
@@ -15,7 +15,7 @@ module.exports = {
             }
 
 
-            const { voiceChannel } = message.member;
+            const voiceChannel = message.member.voice.channel;
             if (!voiceChannel) return message.channel.send("You need to be in a voice channel to play music.");
             
     
@@ -28,7 +28,7 @@ module.exports = {
             const player = client.music.players.spawn({
                 guild: message.guild,
                 textChannel: message.channel,
-                voiceChannel
+                voiceChannel: voiceChannel,
             });
 
             if (voiceChannel.id !== player.voiceChannel.id) return message.channel.send("You need to be in the same voice channel of the bot to play music.");
@@ -38,25 +38,24 @@ module.exports = {
                 switch (res.loadType) {
                     case "TRACK_LOADED":
                         player.queue.add(res.tracks[0]);
-                        const queueAdd = new RichEmbed()
+                        const queueAdd = new Discord.MessageEmbed()
                         .setDescription(`🎶 Queued \`${res.tracks[0].title}\` \[` + (message.author) + `\]`)
-                        message.channel.send(queueAdd).then(m => m.delete(15000));
+                        message.channel.send(queueAdd).then(m => m.delete({ timeout: 15000 }));
                         if (!player.playing) player.play()
                         break;
                     
                     case "SEARCH_RESULT":
                         let index = 1;
                         const tracks = res.tracks.slice(0, 5);
-                        message.channel.send((emoji("667774816396378138")) + `**  Searching**  🔎  ` + "\`" + (args.join(" ")) + "\`")
-                        const embed = new RichEmbed()
-                            .setAuthor("Song Selection.", message.author.displayAvatarURL)
+                        message.channel.send(`**  Searching**  🔎  ` + "\`" + (args.join(" ")) + "\`")
+                        const embed = new Discord.MessageEmbed()
+                            .setAuthor("Song Selection.", message.author.displayAvatarURL())
                             .setDescription(tracks.map(video => `**${index++} -** ${video.title}`))
                             .setFooter("Your response time closes within the next 30 seconds. Type 'cancel' to cancel the selection");
     
                         await message.channel.send(embed);
     
                         const collector = message.channel.createMessageCollector(m => {
-                            
                             return m.author.id === message.author.id && new RegExp(`^([1-5]|cancel)$`, "i").test(m.content)
                         }, { time: 30000, max: 1});
     
@@ -64,9 +63,9 @@ module.exports = {
                             if (/cancel/i.test(m.content)) return collector.stop("cancelled")
 
                             if (!player.queue.empty) {
-                                const queueAdd = new RichEmbed()
+                                const queueAdd = new Discord.MessageEmbed()
                             .setDescription(`🎶 Queued \`${res.tracks[0].title}\` \[` + (message.author) + `\]`)
-                            message.channel.send(queueAdd).then(m => m.delete(15000));
+                            message.channel.send(queueAdd).then(m => m.delete( { timeout: 15000 } ));
                             }
     
                             const track = tracks[Number(m.content) - 1];

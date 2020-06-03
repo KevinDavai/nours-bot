@@ -1,5 +1,5 @@
 const { Utils } = require("erela.js")
-const { RichEmbed } = require("discord.js")
+const Discord = require("discord.js")
 const { stripIndents } = require("common-tags")
 
 module.exports = {
@@ -16,17 +16,17 @@ module.exports = {
           if (player.position > 5000){
             getnowplaying()
           }
-          if (player.position < 5000){
-            setTimeout(() => {
-            getnowplaying()
-            },3000)
+          if (player.position <= 5000){
+            return message.channel.send("Please wait a litle.")
           }
           
+        
+
           function getnowplaying(){
           let { title, author, duration, thumbnail, requester } = player.queue[0];
           let amount = `00:${Utils.formatTime(player.position, true)}`
           const part = Math.floor((player.position / duration) * 10);
-          const giveEmbed = new RichEmbed()
+          const giveEmbed = new Discord.MessageEmbed()
             .setColor("AQUA")
             .setDescription(`${player.playing ? "▶️" : "⏸️"} Currently Playing ${title}\n${"▬".repeat(part) + "🔘" + "▬".repeat(10 - part)}[${amount} / ${Utils.formatTime(duration, true)}]\nRequested By: ${requester.tag}`)
 

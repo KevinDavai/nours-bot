@@ -1,5 +1,5 @@
 const { Utils } = require("erela.js")
-const { RichEmbed } = require("discord.js")
+const Discord = require("discord.js")
 
 module.exports = {
     name: "queue",
@@ -12,7 +12,7 @@ module.exports = {
             const player = client.music.players.get(message.guild.id);
             if (!player || !player.queue[0]) return message.channel.send({embed :{
                 description: "No song/s currently playing in this guild.",
-                color: "3447003"
+                color: "0xFFFFFF"
                 
             }}).catch(err => message.channel.send(err.message))
             const { title, requester, uri} = player.queue[0];
@@ -27,7 +27,7 @@ module.exports = {
             name: `${message.guild.name}'s Queue.`,
             icon_url: message.guild.iconURL
             },
-            color: 3447003
+            color: 0xFFFFFF
             }});
             else {
                 let x;
@@ -44,7 +44,7 @@ module.exports = {
                    }
                 let queuelist = player.queue.slice(x-10,x).map(song => `**${++i}.** [${queue[i].title}](${queue[i].uri}) [<@${queue[i].requester.id}>]`).join('\n')
                 if(!queuelist) return message.channel.send(`<:megX:476797393283710991> | Page doesn't exist!`)
-                const embed = new RichEmbed()
+                const embed = new Discord.MessageEmbed()
                 embed.setDescription(`🎧 Now Playing:\n [${title}](${uri}) [<@${requester.id}>]\n__Up Next__:\n${queuelist}`)
                 embed.setThumbnail("https://upload.wikimedia.org/wikipedia/commons/7/73/YouTube_Music.png")
                 embed.setAuthor(`${message.guild.name}'s Queue (${Math.floor(x/10)} / ${Math.floor((player.queue.slice(1).length+10) /10)})`)

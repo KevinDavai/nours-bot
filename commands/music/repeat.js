@@ -1,5 +1,5 @@
 const { Utils } = require("erela.js")
-const { RichEmbed } = require("discord.js")
+const Discord = require("discord.js")
 
 
 module.exports = {
@@ -10,13 +10,11 @@ module.exports = {
     aliases: ["loop"],
         run: async (client, message, args) => {
 
-
-            
             const player = client.music.players.get(message.guild.id);
             
             if(!player) return message.channel.send("No song/s currently playing");
 
-            const { voiceChannel } = message.member;
+            const voiceChannel = message.member.voice.channel;
     
             if(voiceChannel && voiceChannel.id !== player.voiceChannel.id) return message.channel.send("You need to be in the same channel of the bot to use the leave command.");
             if(!voiceChannel) return message.channel.send("You need to be in the same channel of the bot to use the leave command.");

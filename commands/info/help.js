@@ -1,4 +1,4 @@
-const { RichEmbed } = require("discord.js");
+const Discord = require("discord.js");
 const { stripIndents } = require("common-tags");
 const Prefix = require('../../models/prefix.js');
 
@@ -25,11 +25,10 @@ module.exports = {
 
         
         function getAll(client, message) {
-          const embed = new RichEmbed()
-              .setColor("ORANGE")
+          const embed = new Discord.MessageEmbed()
+              .setColor("ORANGE");
       
       
-    
       const commands = client.commands.filter(c => !c.ownerOnly).reduce((acc, val) => {
         const idx = acc.findIndex(cmd => cmd.category === val.category);
       
@@ -54,8 +53,8 @@ module.exports = {
       }
       
       function getCMD(client, message, input) {
-          const embed = new RichEmbed()
-          .setFooter('Nour\'s bot ©️', (client.user.displayAvatarURL))
+          const embed = new Discord.MessageEmbed()
+          .setFooter('Nour\'s bot ©️', (client.user.displayAvatarURL()))
           .setTimestamp()  
 
       

@@ -1,5 +1,5 @@
 const { getMember, formatDate } = require("../../functions.js");
-const { RichEmbed } = require("discord.js");
+const Discord = require("discord.js");
 const { stripIndents } = require("common-tags");
 
 module.exports = {
@@ -13,7 +13,7 @@ module.exports = {
 
         // Member variables
         const joined = formatDate(member.joinedAt);
-        const role = member.roles
+        const role = member.roles.cache
             .filter(r => r.id !== message.guild.id)
             .map(r => r)
             .join(", ") || "none";
@@ -21,9 +21,9 @@ module.exports = {
         // User variables
         const created = formatDate(member.user.createdAt);
 
-        const embed = new RichEmbed()
-            .setFooter(member.displayName, member.user.displayAvatarURL)
-            .setThumbnail(member.user.displayAvatarURL)
+        const embed = new Discord.MessageEmbed()
+            .setFooter(member.displayName, member.user.displayAvatarURL())
+            .setThumbnail(member.user.displayAvatarURL())
             .setColor(member.displayHexColor === "#000000" ? "#ffffff" : member.displayHexColor)
 
             .addField('Member information', stripIndents`**➢ Display name:** ${member.displayName}
@@ -39,8 +39,8 @@ module.exports = {
 
             .setTimestamp()
 
-        if (member.user.presence.game)
-            embed.addField('Currently playing', `**➢ Name:** ${member.user.presence.game.name}`)
+        if (member.user.presence.activities)
+            embed.addField('Currently playing', `**➢ Name:** ${member.user.presence.activities}`)
 
         message.channel.send(embed);
     }

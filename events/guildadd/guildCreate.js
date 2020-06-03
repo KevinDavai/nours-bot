@@ -1,5 +1,5 @@
 const Prefix = require('../../models/prefix.js');
-const { RichEmbed } = require("discord.js")
+const Discord = require("discord.js")
 const { stripIndents } = require("common-tags");
 
 module.exports = async (client, guild1) => {
@@ -19,9 +19,9 @@ module.exports = async (client, guild1) => {
             guild = { guildID: id, prefix: '_' }
         }
 
-        const dmOwnerEmbed = new RichEmbed()
+        const dmOwnerEmbed = new Discord.MessageEmbed()
         .setDescription("**Hi, thanks for adding me to your server !**\n** **")
-        .setAuthor((client.user.username), (client.user.displayAvatarURL))
+        .setAuthor((client.user.username), (client.user.displayAvatarURL()))
         .setColor("ORANGE")
 
         .addField('Prefix', stripIndents`Current prefix of __**${guild1.name}**__ is \`${guild.prefix}\`

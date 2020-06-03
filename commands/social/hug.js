@@ -1,4 +1,4 @@
-const { RichEmbed } = require("discord.js")
+const Discord = require("discord.js")
 const { stripIndents } = require("common-tags");
 const fetch = require('node-fetch');
 const { getMember, formatDate } = require("../../functions.js");
@@ -27,13 +27,13 @@ module.exports = {
         const data = await fetch(`https://api.tenor.com/v1/random?q=anime_hug&key=HE2DHUE13GS0&locale=en_US&limit=50`).then(res => res.json())
         
 
-        const embedhug = new RichEmbed()
+        const embedhug = new Discord.MessageEmbed()
         .setColor("ORANGE")
-        .setFooter("hug ", message.author.displayAvatarURL)
+        .setFooter("hug ", message.author.displayAvatarURL())
         .setTimestamp()
         .setImage(data.results[0].media[0].gif.url)
 
-        let RandomMemberGuild = message.guild.members.random();
+        let RandomMemberGuild = message.guild.members.cache.random();
 
 
         if (!args[0] || "random") {

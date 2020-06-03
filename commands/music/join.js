@@ -6,13 +6,13 @@ module.exports = {
    aliases: ["connect"],
    run: async (client, message, args) => {
 
-     // check if member is in a channel
-       if (!message.member.voiceChannel) {
-           return message.channel.send("You are not in a voice channel")
-       }
 
-       const { voiceChannel } = message.member;
+
+        const voiceChannel = message.member.voice.channel;
        const player = client.music.players.get(message.guild.id);
+
+       if (!voiceChannel) return message.channel.send("You need to be in a voice channel to play music.");
+
 
     // Check if the bot is already in a voice channel: if not so create it
     if(!message.guild.me.voiceChannel) {
@@ -23,7 +23,7 @@ module.exports = {
        });
     }
     // Check if member is already in the same voice channel of the bot
-    if(message.guild.me.voiceChannel && voiceChannel.id === player.voiceChannel.id) {
+    if(!voiceChannel && voiceChannel.id === player.voiceChannel.id) {
        return message.channel.send("Im already in your voice channel")
     }
 

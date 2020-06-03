@@ -12,7 +12,6 @@ module.exports = {
             return message.reply("❌ You do not have permissions to do this! Please contact a staff member.")
         }
 
-        if(!message.guild.me.voiceChannel) return message.channel.send("I'm not in a voice channel");
         if(!player) return message.channel.send("No song/s currently playing in this guild.");
         if(!args[0]) return message.channel.send(`Current Volume: ${player.volume}`);
         if(Number(args[0]) <= 0 || Number(args[0]) > 100) return message.channel.send("You may only set the volume 1-100");

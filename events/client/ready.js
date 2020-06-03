@@ -1,6 +1,6 @@
 const { ErelaClient, Utils } = require("erela.js");
 const { nodes } = require("../../private/botconfig.json");
-const { RichEmbed } = require("discord.js")
+const Discord = require("discord.js")
 
 let timeout
 
@@ -10,7 +10,7 @@ module.exports = async client => {
         .on("nodeError", console.log)
         .on("nodeConnect", () => (console.log("Successfully created a new Node.")))
         .on("queueEnd", player => {
-            const embedtime = new RichEmbed()
+            const embedtime = new Discord.MessageEmbed()
             .setDescription("I left the voice channel because I was inactive for too long.")
             timeout = setTimeout(() => {
                 
@@ -22,10 +22,10 @@ module.exports = async client => {
         .on("trackStart", (player, {title, duration}) => {
             const textChannel = player.textChannel;
             player.setVolume(50)
-            const embednp = new RichEmbed()
+            const embednp = new Discord.MessageEmbed()
             .setTitle("🎶 Now playing")
             .setDescription(`\`${title}\`  \`${Utils.formatTime(duration, true)}\``)
-            textChannel.send(embednp).then(m => m.delete(10000));
+            textChannel.send(embednp).then(m => m.delete({ timeout: 10000 }));
             if (timeout) {
                 clearTimeout(timeout)
             }
@@ -43,7 +43,7 @@ module.exports = async client => {
          
     client.user.setPresence({
         status: "online",
-        game: {
+        activity: {
             name: "The Empire of Nour's",
             type: "WATCHING"
         }
