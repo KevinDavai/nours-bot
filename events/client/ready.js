@@ -48,4 +48,6 @@ module.exports = async client => {
             type: "WATCHING"
         }
     });
+    
+    require("../../modules/dashboard.js")(this.client)
 }
