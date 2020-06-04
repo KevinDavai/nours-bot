@@ -4,3 +4,4 @@ lavalink/application.yml
 node_modules/
 lavalink/logs/
 changelog.txt
+ecosystem.config.js

@@ -1,4 +1,4 @@
-const { Client, RichEmbed, Collection } = require("discord.js");
+const { Client, Collection } = require("discord.js");
 const { config } = require("dotenv");
 const fs = require("fs");
 const mongoose = require("mongoose");
@@ -23,7 +23,6 @@ const Tenor = require("tenorjs").client({
     "MediaFilter": "minimal", // either minimal or basic, not case sensitive
     "DateFormat": "D/MM/YYYY - H:mm:ss A" // Change this accordingly
 });
-
 
 client.commands = new Collection();
 client.aliases = new Collection();

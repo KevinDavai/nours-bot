@@ -4,7 +4,6 @@ module.exports = async (client, message) => {
 
     if (message.author.bot) return;
     if (!message.guild) return;
-  
 
 
     Prefix.findOne({
@@ -24,6 +23,11 @@ module.exports = async (client, message) => {
          let prefix = guild.prefix;
 
         if (!message.content.startsWith(prefix)) return;
+
+        if (process.env.NODE_ENV === "development" && message.guild.id !== "717133944176509000"){
+            return message.reply("DEV")
+        }
+
         if (!message.member) message.member = message.guild.fetchMember(message);
 
         const args = message.content.slice(prefix.length).trim().split(/ +/g);

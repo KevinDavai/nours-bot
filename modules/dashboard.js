@@ -6,17 +6,17 @@ const Strategy = require("passport-discord").Strategy;
 const session = require("express-session");
 const MemoryStore = require("memorystore")(session);
 const { config } = require("dotenv");
+const bodyParser = require("body-parser");
+
 
 config({
     path: "../private/.env"
 });
 
 module.exports = client => {
-  // root/dashboard/
   const dashboardDirectory = path.resolve(
     `${process.cwd()}${path.sep}dashboard`
   );
-  // root/dashboard/templates
   const templatesDirectory = path.resolve(`${dashboardDirectory}${path.sep}templates`);
   // root/dashboard/public
   dashboard.use(
@@ -53,6 +53,11 @@ module.exports = client => {
   dashboard.engine("html", require("ejs").renderFile);
   dashboard.set("view engine", "html");
 
+  dashboard.use(bodyParser.json());
+  dashboard.use(bodyParser.urlencoded({
+    extended: true
+  }));
+
   const renderTemplate = (res, req, template, data = {}) => {
       const baseData = {
           bot: client,
@@ -69,5 +74,5 @@ module.exports = client => {
       renderTemplate(res, req, "home.ejs");
   });
 
-  dashboard.listen((process.env.port));
+  dashboard.listen((process.env.port), null, null, () => console.log("Demarage du serveur Web... ==> OK."));
 };
