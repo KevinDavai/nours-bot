@@ -16,13 +16,6 @@ const client = new Client({
     disableEveryone: true
 });
 
-const Tenor = require("tenorjs").client({
-    "Key": `${process.env.TENORKEY}`, // https://tenor.com/developer/keyregistration
-    "Filter": "off", // "off", "low", "medium", "high", not case sensitive
-    "Locale": "en_US", // Your locale here, case-sensitivity depends on input
-    "MediaFilter": "minimal", // either minimal or basic, not case sensitive
-    "DateFormat": "D/MM/YYYY - H:mm:ss A" // Change this accordingly
-});
 
 client.commands = new Collection();
 client.aliases = new Collection();

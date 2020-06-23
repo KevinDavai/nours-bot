@@ -19,6 +19,6 @@ module.exports = async (client, GuildMember, message) => {
                         player.textChannel.send(embedtime).then(m => m.delete({ timeout: 10000 }))
                         client.music.players.destroy(player.guild.id)
                     }
-            }, 10000);
+            }, 300000);
         } 
 }

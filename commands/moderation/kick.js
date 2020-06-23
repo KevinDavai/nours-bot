@@ -4,9 +4,11 @@ const { promptMessage } = require("../../functions.js");
 
 module.exports = {
     name: "kick",
+    remind: "Hooks such as [] or <> are not to be used when using commands.",
     category: "moderation",
-    description: "kick un membre",
-    usage: "<id | mention>",
+    description: "Kick an user with an optional reason",
+    usage: "kick [user] <reason>",
+    cooldown: 3,
     run: async (client, message, args) => {
         const logChannel = message.guild.channels.cache.find(c => c.name === "logs") || message.channel;
 
@@ -14,25 +16,19 @@ module.exports = {
 
         // No author permissions
         if (!message.member.hasPermission("KICK_MEMBERS")) {
-            return message.reply("❌ You do not have permissions to kick members. Please contact a staff member")
+            return message.channel.send(`**${message.author.username}**, You do not have permissions to ban members. Please contact a staff member.`)
                 .then(m => m.delete({ timeout:10000 }));
         }
 
         // No bot permissions
         if (!message.guild.me.hasPermission("KICK_MEMBERS")) {
-            return message.reply("❌ I do not have permissions to kick members. Please contact a staff member")
+            return message.channel.send(`**${message.author.username}**, I do not have permissions to ban members. Please contact a staff member.`)
                 .then(m => m.delete({ timeout:10000 }));
         }
 
         // No mention
         if (!args[0]) {
-            return message.reply("Please provide a person to kick")
-                .then(m => m.delete({ timeout:10000 }));
-        }
-
-        // No reason
-        if (!args[1]) {
-            return message.reply("Please provide a reason to kick")
+            return message.channel.send(`**${message.author.username}**, Please provide a person to ban.`)
                 .then(m => m.delete({ timeout:10000 }));
         }
 
@@ -40,36 +36,36 @@ module.exports = {
 
         // No member Found
         if (!toKick) {
-            return message.reply("Couldn't find that member, try again!")
+            return message.channel.send(`**${message.author.username}**, Couldn't find that member, try again!`)
                 .then(m => m.delete({ timeout:10000 }));
         }
 
-        // Can't kick urself
-        if (message.author.id === toKick.id) {
-            return message.reply("Can't kick yourself lol")
-                .then(m => m.delete({ timeout:10000 }));
-        }
-
-        // Can't kick urself
-        if (message.guild.me.id === toKick.id) {
-            return message.reply("You can't kick me, nice try :)")
-                .then(m => m.delete({ timeout:10000 }));
-        }
+        let reason = args[1]
 
         // Kickable
         if (!toKick.kickable) {
-            return message.reply("I can't kick that person due to role hierarchy, I suppose.")
+            return message.channel.send(`**${message.author.username}**, I can't ban that person due to role hierarchy, I suppose.`)
                 .then(m => m.delete({ timeout:10000 }));
         }
 
         const embed = new Discord.MessageEmbed()
             .setColor("#ff0000")
-            .setThumbnail(toKick.user.displayAvatarURL())
-            .setFooter(message.member.displayName, message.author.displayAvatarURL())
+            .setThumbnail(toKick.user.displayAvatarURL({ format: 'png' }))
+            .setFooter(message.member.displayName, message.author.displayAvatarURL({ format: 'png' }))
             .setTimestamp()
-            .setDescription(stripIndents`**➢ Kicked member:** ${toKick} (${toKick.id})
+
+            
+        if (!reason) {
+            embed.setDescription(stripIndents`**➢ Kicked member:** ${toKick} (${toKick.id})
+            **➢ Kicked by:** ${message.author} (${message.author.id})`);
+        };
+        
+        if (reason) {
+            embed.setDescription(stripIndents`**➢ Kicked member:** ${toKick} (${toKick.id})
             **➢ Kicked by:** ${message.author} (${message.author.id})
-            **➢  Reason:** ${args.slice(1).join(" ")}`);
+            **➢ Reason:** ${args.slice(1).join(" ")}`);
+        };
+
         
         const promptEmbed = new Discord.MessageEmbed()
             .setColor("GREEN")
@@ -82,8 +78,9 @@ module.exports = {
             if (emoji === "✅") {
                 msg.delete();
  
-                toKick.kick(args.slice(1).join(" "))
-                    .catch(err => {
+                toKick.kick({
+                    reason: (reason)
+                }).catch(err => {
                         if (err) return message.channel.send(`Well.... the kick didn't work out. Here's the error ${err}`);
                     });
 
@@ -91,11 +88,11 @@ module.exports = {
             } else if (emoji === "❌") {
                 msg.delete();
 
-                message.reply("Kick canceled...")
+                message.channel.send(`**${message.author.username}**, You canceled the kick...`)
                     .then(m => m.delete({ timeout: 10000 }));
             } else {
                 msg.delete()
-                message.reply("You reacted with neither, the kick was canceled...")
+                message.channel.send(`**${message.author.username}**, You reacted with neither, the kick was canceled...`)
                    .then(m => m.delete({ timeout:10000 }));
             }
         });
